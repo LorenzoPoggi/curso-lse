@@ -1,0 +1,3 @@
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/01_blinky/armgcc/debug/CMakeFiles/new_project.elf.dir
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/01_blinky/armgcc/debug/CMakeFiles/edit_cache.dir
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/01_blinky/armgcc/debug/CMakeFiles/rebuild_cache.dir
