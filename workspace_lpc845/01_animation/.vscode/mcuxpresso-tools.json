@@ -1,0 +1,15 @@
+{
+  "version": "25.3",
+  "toolchainPath": "/Users/lorenzo.poggi/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-darwin-arm64-arm-none-eabi",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "projectType": "sdk-freestanding",
+  "sdk": {
+    "version": "25.03.00",
+    "path": "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_animation_sdk",
+    "boardId": "lpc845breakout",
+    "deviceId": "LPC845",
+    "coreId": "core0_LPC845"
+  }
+}
