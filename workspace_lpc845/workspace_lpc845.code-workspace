@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "lpc845breakout_blank",
+			"path": "lpc845breakout_blank"
+		}
+	],
+	"settings": {}
+}
