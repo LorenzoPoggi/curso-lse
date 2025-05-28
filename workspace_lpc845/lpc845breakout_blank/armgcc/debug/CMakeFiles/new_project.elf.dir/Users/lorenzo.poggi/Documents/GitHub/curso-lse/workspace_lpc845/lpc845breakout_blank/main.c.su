@@ -1,0 +1,6 @@
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/lpc845breakout_blank_sdk/CMSIS/Core/Include/./core_cm0plus.h:866:22:__NVIC_SetPriority	24	static
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/lpc845breakout_blank_sdk/CMSIS/Core/Include/./core_cm0plus.h:1074:26:SysTick_Config	16	static
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/lpc845breakout_blank_sdk/devices/LPC845/drivers/./fsl_gpio.h:153:20:GPIO_PinWrite	24	static
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/lpc845breakout_blank_sdk/devices/LPC845/drivers/./fsl_gpio.h:172:24:GPIO_PinRead	24	static
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/lpc845breakout_blank/main.c:9:5:main	16	static
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/lpc845breakout_blank/main.c:33:6:SysTick_Handler	8	static
