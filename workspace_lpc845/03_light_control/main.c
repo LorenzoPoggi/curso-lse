@@ -32,12 +32,27 @@ int main(void) {
     SWM_SetMovablePinSelect(SWM0, kSWM_I2C1_SCL, kSWM_PortPin_P0_26);
     CLOCK_DisableClock(kCLOCK_Swm);
 
+    // Configuracion del SCT Timer
+    sctimer_config_t sctimer_config;
+    SCTIMER.GetDefaultConfig(&sctimer_config);
+    SCTIMER.Init (SCTO, &sctimer_config);
+
+    // Configuro el PWM
+    sctimer_pwm_signal_param_t pwm.config = { 
+        kSCTIMER_Out_4, 
+        kSCTIMER_LowTrue, 
+        50 // 50% de ancho de pulso
+};
+
+
     // Configuracion de master para el I2C con 400 KHz de clock
     i2c_master_config_t config;
     I2C_MasterGetDefaultConfig(&config);
     config.baudRate_Bps = 400000;
     // Usa el clock del sistema de base para generar el de la comunicacion
     I2C_MasterInit(I2C1, &config, SystemCoreClock);
+
+    
 
 	if(I2C_MasterStart(I2C1, BH1750_ADDR, kI2C_Write) == kStatus_Success) {
 		// Comando de power on
@@ -52,32 +67,28 @@ int main(void) {
 		I2C_MasterStop(I2C1);
 	}
 
-    // Configuración para PWM por software
-    uint32_t duty_cycle = 0;
-    uint32_t period_ms = 10; // periodo PWM en ms
-
     while(1) {
+
+        uint32_t event;
+        uint32_t sctimer_clock = CLOCK_GetFreq (kCLOCK_Fro);
+        
+        //Inicialiso el PMW 
+
+        
         // Lectura del sensor
         if(I2C_MasterStart(I2C1, BH1750_ADDR, kI2C_Read) == kStatus_Success) {
+            // Resultado
             uint8_t res[2] = {0};
             I2C_MasterReadBlocking(I2C1, res, 2, kI2C_TransferDefaultFlag);
             I2C_MasterStop(I2C1);
+            // Devuelvo el resultado
             int lux = ((res[0] << 8) + res[1]) / 1.2;
-            if(lux > 20000) {
-                lux = 20000;
+            if(lux > 10000) {
+                lux = 10000;
             }
             PRINTF("LUX : %d \r\n",(uint16_t) lux);
-
-            // Mapear lux (0-20000) a duty_cycle (100-0)
-            if(lux < 0) lux = 0;
-            duty_cycle = 100 - (lux * 100 / 20000); // 0 lux = 100%, 20000 lux = 0%
         }
-
-        // PWM por software
-        GPIO_PinWrite(LED_D1, 1);
-        SDK_DelayAtLeastUs(period_ms * duty_cycle * 10, SystemCoreClock); // ON
-        GPIO_PinWrite(LED_D1, 0);
-        SDK_DelayAtLeastUs(period_ms * (100 - duty_cycle) * 10, SystemCoreClock); // OFF
+        
     }
     return 0;
 }
