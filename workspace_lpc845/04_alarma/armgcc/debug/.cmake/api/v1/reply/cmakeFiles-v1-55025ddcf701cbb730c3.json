@@ -181,6 +181,10 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/04_alarma_sdk/devices/LPC845/drivers/driver_lpc_adc.LPC845.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/04_alarma_sdk/devices/LPC845/drivers/driver_lpc_gpio.LPC845.cmake"
 		},
 		{
