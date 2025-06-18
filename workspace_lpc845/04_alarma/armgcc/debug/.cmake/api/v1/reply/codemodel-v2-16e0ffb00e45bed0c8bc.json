@@ -1,0 +1,102 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "freertos",
+					"jsonFile" : "directory-freertos-debug-384b4ebeac37e4a01e77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/freertos",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "new_project",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "freertos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "freertos::@2c328eccfcd2443a4ea6",
+					"jsonFile" : "target-freertos-debug-ed24b5bcf938716f34ce.json",
+					"name" : "freertos",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new_project.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_project.elf-debug-62200de6d217761580ea.json",
+					"name" : "new_project.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/armgcc/debug",
+		"source" : "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/armgcc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
