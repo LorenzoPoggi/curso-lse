@@ -7,7 +7,7 @@ events:
       - "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
       - "CMakeLists.txt:30 (project)"
     message: |
-      The target system is: Generic -  - arm
+      The target system is: Generic -  - 
       The host system is: Darwin - 24.5.0 - arm64
   -
     kind: "message-v1"
@@ -18,25 +18,14 @@ events:
       - "CMakeLists.txt:30 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /Applications/MCUXpressoIDE_24.12.148/ide/tools/bin/arm-none-eabi-gcc 
-      Build flags: -fstack-usage;-D__NEWLIB__;-fstack-usage;-D__NEWLIB__
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
       Id flags:  
       
       The output was:
       1
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
-      exit.c:(.text.exit+0x28): undefined reference to `_exit'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
-      closer.c:(.text._close_r+0x18): undefined reference to `_close'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
-      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
-      readr.c:(.text._read_r+0x24): undefined reference to `_read'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
-      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
-      writer.c:(.text._write_r+0x24): undefined reference to `_write'
-      collect2: error: ld returned 1 exit status
+      ld: library 'System' not found
+      cc: error: linker command failed with exit code 1 (use -v to see invocation)
       
       
   -
@@ -48,8 +37,8 @@ events:
       - "CMakeLists.txt:30 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /Applications/MCUXpressoIDE_24.12.148/ide/tools/bin/arm-none-eabi-gcc 
-      Build flags: -fstack-usage;-D__NEWLIB__;-fstack-usage;-D__NEWLIB__
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
       Id flags: -c 
       
       The output was:
@@ -58,9 +47,7 @@ events:
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.su"
-      
-      The C compiler identification is GNU, found in:
+      The C compiler identification is AppleClang, found in:
         /Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/3.30.0/CompilerIdC/CMakeCCompilerId.o
       
   -
@@ -72,25 +59,14 @@ events:
       - "CMakeLists.txt:30 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /Applications/MCUXpressoIDE_24.12.148/ide/tools/bin/arm-none-eabi-g++ 
-      Build flags: -fstack-usage;-D__NEWLIB__;-fstack-usage;-D__NEWLIB__
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/CC 
+      Build flags: 
       Id flags:  
       
       The output was:
       1
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
-      exit.c:(.text.exit+0x28): undefined reference to `_exit'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
-      closer.c:(.text._close_r+0x18): undefined reference to `_close'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
-      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
-      readr.c:(.text._read_r+0x24): undefined reference to `_read'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
-      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
-      /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
-      writer.c:(.text._write_r+0x24): undefined reference to `_write'
-      collect2: error: ld returned 1 exit status
+      ld: library 'System' not found
+      CC: error: linker command failed with exit code 1 (use -v to see invocation)
       
       
   -
@@ -102,8 +78,8 @@ events:
       - "CMakeLists.txt:30 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /Applications/MCUXpressoIDE_24.12.148/ide/tools/bin/arm-none-eabi-g++ 
-      Build flags: -fstack-usage;-D__NEWLIB__;-fstack-usage;-D__NEWLIB__
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/CC 
+      Build flags: 
       Id flags: -c 
       
       The output was:
@@ -112,22 +88,95 @@ events:
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.su"
-      
-      The CXX compiler identification is GNU, found in:
+      The CXX compiler identification is AppleClang, found in:
         /Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/3.30.0/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
-    kind: "message-v1"
+    kind: "try_compile-v1"
     backtrace:
-      - "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
-      - "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:32 (enable_language)"
-    message: |
-      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009
-      Copyright (C) 2023 Free Software Foundation, Inc.
-      This is free software; see the source for copying conditions.  There is NO
-      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-      
+      - "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:30 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/CMakeScratch/TryCompile-Dq8suu"
+      binary: "/Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/CMakeScratch/TryCompile-Dq8suu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/CMakeScratch/TryCompile-Dq8suu'
+        
+        Run Build Command(s): /Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_70b80/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70b80.dir/build.make CMakeFiles/cmTC_70b80.dir/build
+        Building C object CMakeFiles/cmTC_70b80.dir/CMakeCCompilerABI.c.obj
+        /Library/Developer/CommandLineTools/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_70b80.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_70b80.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_70b80.dir/CMakeCCompilerABI.c.obj -c /Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Apple clang version 17.0.0 (clang-1700.0.13.5)
+        Target: arm64-apple-darwin24.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -fbuiltin-headers-in-system-modules -fdefine-target-os-macros -fno-assume-unique-vtables -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb "-fdebug-compilation-dir=/Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/CMakeScratch/TryCompile-Dq8suu" -target-linker-version 1167.5 -v "-fcoverage-compilation-dir=/Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/CMakeScratch/TryCompile-Dq8suu" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_70b80.dir/CMakeCCompilerABI.c.obj.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_70b80.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_70b80.dir/CMakeCCompilerABI.c.obj -x c /Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.5.0
+        ignoring nonexistent directory "/usr/include"
+        ignoring nonexistent directory "/System/Library/SubFrameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/local/include
+         /Library/Developer/CommandLineTools/usr/lib/clang/17/include
+         /Library/Developer/CommandLineTools/usr/include
+         /System/Library/Frameworks (framework directory)
+         /Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_70b80
+        /Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b80.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -v CMakeFiles/cmTC_70b80.dir/CMakeCCompilerABI.c.obj -o cmTC_70b80
+        Apple clang version 17.0.0 (clang-1700.0.13.5)
+        Target: arm64-apple-darwin24.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.0.0 -mllvm -enable-linkonceodr-outlining -o cmTC_70b80 CMakeFiles/cmTC_70b80.dir/CMakeCCompilerABI.c.obj -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        ld: library 'System' not found
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_70b80] Error 1
+        make: *** [cmTC_70b80/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:30 (project)"
+    checks:
+      - "Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc"
+    directories:
+      source: "/Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/CMakeScratch/TryCompile-BHIV3y"
+      binary: "/Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/CMakeScratch/TryCompile-BHIV3y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/CMakeScratch/TryCompile-BHIV3y'
+        
+        Run Build Command(s): /Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_263f1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_263f1.dir/build.make CMakeFiles/cmTC_263f1.dir/build
+        Building C object CMakeFiles/cmTC_263f1.dir/testCCompiler.c.obj
+        /Library/Developer/CommandLineTools/usr/bin/cc    -MD -MT CMakeFiles/cmTC_263f1.dir/testCCompiler.c.obj -MF CMakeFiles/cmTC_263f1.dir/testCCompiler.c.obj.d -o CMakeFiles/cmTC_263f1.dir/testCCompiler.c.obj -c "/Users/lorenzo.poggi/Documents/GitHub/curso_lse /trabajo_integrador/trabajo_final/armgcc/debug/CMakeFiles/CMakeScratch/TryCompile-BHIV3y/testCCompiler.c"
+        Linking C executable cmTC_263f1
+        /Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_263f1.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc CMakeFiles/cmTC_263f1.dir/testCCompiler.c.obj -o cmTC_263f1
+        ld: library 'System' not found
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_263f1] Error 1
+        make: *** [cmTC_263f1/fast] Error 2
+        
+      exitCode: 2
 ...
