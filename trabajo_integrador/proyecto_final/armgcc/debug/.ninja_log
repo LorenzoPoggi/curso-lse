@@ -86,3 +86,5 @@
 323	404	1751985250171407827	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/str/fsl_str.c.obj	cb6aba4c0e8f29b4
 396	425	1751985250244307670	freertos/libfreertos.a	5563a3f713891f48
 425	458	1751985250273327305	new_project.elf	4eb3bdbe09610e73
+1	141	1751985584731827114	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/main.c.obj	17ed83bfee3bc37d
+141	188	1751985584871858477	new_project.elf	4eb3bdbe09610e73

@@ -1,44 +1,30 @@
-
-/*
- * Copyright (c) 2013 - 2015, Freescale Semiconductor, Inc.
- * Copyright 2016-2017 NXP
- * All rights reserved.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
-
-#include "fsl_device_registers.h"
-
-#include "pin_mux.h"
-#include "clock_config.h"
-#include "peripherals.h"
-
 #include "board.h"
-#include "app.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
-/*******************************************************************************
- * Definitions
- ******************************************************************************/
+#include "app_tasks.h"
 
-/*******************************************************************************
- * Prototypes
- ******************************************************************************/
-
-/*******************************************************************************
- * Code
- ******************************************************************************/
-/*!
- * @brief Main function
+/**
+ * @brief Programa principal
  */
+int main(void) {
+	// Clock del sistema a 30 MHz
+	BOARD_BootClockFRO30M();
 
-int main(void)
-{
+	// Creacion de tareas
 
-    /* Init board hardware. */
-    BOARD_InitHardware();
+	xTaskCreate(task_init, "Init", tskINIT_STACK, NULL, tskINIT_PRIORITY, NULL);
+	xTaskCreate(task_adc, "ADC", tskADC_STACK, NULL, tskADC_PRIORITY, NULL);
+	xTaskCreate(task_display_change, "Button", tskDISPLAY_CHANGE_STACK, NULL, tskDISPLAY_CHANGE_PRIORITY, NULL);
+	xTaskCreate(task_control, "Write", tskCONTROL_STACK, NULL, tskCONTROL_PRIORITY, NULL);
+	xTaskCreate(task_display, "Display", tskDISPLAY_STACK, NULL, tskDISPLAY_PRIORITY, &handle_display);
+	xTaskCreate(task_pwm, "PWM", tskPWM_STACK, NULL, tskPWM_PRIORITY, NULL);
+	xTaskCreate(task_bh1750, "BH1750", tskBH1750_STACK, NULL, tskBH1750_PRIORITY, NULL);
+	xTaskCreate(task_animation, "Animation", tskANIMATION_STACK, NULL, tskANIMATION_PRIORITY, NULL);
+	xTaskCreate(task_blinky, "Blinky LED", tskBLINKY_STACK, NULL, tskBLINKY_PRIORITY, NULL);
+	xTaskCreate(task_buzzer, "Buzzer", tskBUZZER_STACK, NULL, tskBUZZER_PRIORITY, NULL);
+	xTaskCreate(task_counter, "Counter", tskCOUNTER_STACK, NULL, tskCOUNTER_PRIORITY, NULL);
+	xTaskCreate(task_counter_btns, "Counter Btns", tskCOUNTER_BTNS_STACK, NULL,tskCOUNTER_BTNS_PRIORITY, NULL);
 
-    /* Add user custom codes below */
-    while (1)
-    {
-    }
+	vTaskStartScheduler();
 }
