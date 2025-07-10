@@ -25,7 +25,7 @@
 		[
 			"CMakeLists.txt",
 			"/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/tools/cmake_toolchain_files/armgcc.cmake",
-			"debug/CMakeFiles/3.30.0/CMakeSystem.cmake",
+			"/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake",
 			"/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/tools/cmake_toolchain_files/mcux_config.cmake",
 			"/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/CMSIS/Core/Include/CMSIS_Include_core_cm.cmake",
 			"/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/all_lib_device.cmake",
@@ -76,7 +76,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 6,
+				"line" : 146,
 				"parent" : 3
 			},
 			{
@@ -685,7 +685,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "   -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g     -include /Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -DLPC845_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m0plus     -mfloat-abi=soft     -DSDK_DEBUGCONSOLE=1 "
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include /Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -DLPC845_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m0plus     -mfloat-abi=soft     -DSDK_DEBUGCONSOLE=1 "
 				}
 			],
 			"includes" : 
@@ -779,7 +779,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "   -fstack-usage  -D__NEWLIB__       -g -g -g -g -g     -D__STARTUP_CLEAR_BSS     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -DLPC845_SERIES     -g     -mthumb     -mcpu=cortex-m0plus     -mfloat-abi=soft "
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -g -g     -D__STARTUP_CLEAR_BSS     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -DLPC845_SERIES     -g     -mthumb     -mcpu=cortex-m0plus     -mfloat-abi=soft "
 				}
 			],
 			"includes" : 
@@ -853,7 +853,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g     -include /Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -DLPC845_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m0plus     -mfloat-abi=soft     -DSDK_DEBUGCONSOLE=1",
+				"fragment" : "-fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include /Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_LPC845M301JBD48     -DLPC845_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m0plus     -mfloat-abi=soft     -DSDK_DEBUGCONSOLE=1",
 				"role" : "flags"
 			},
 			{

@@ -20,6 +20,7 @@
 
 #define BOARD_EXTCLKINRATE (0)
 
+
 /*! @brief The UART to use for debug messages. */
 #define BOARD_DEBUG_USART_TYPE       kSerialPort_Uart
 #define BOARD_DEBUG_USART_BASEADDR   (uint32_t) USART0

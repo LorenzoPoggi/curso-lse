@@ -6,12 +6,12 @@
 
 // Semaforos y colas externas
 
-extern xQueueHandle queue_adc;
-extern xSemaphoreHandle semphr_buzz;
-extern xSemaphoreHandle semphr_usr;
-extern xSemaphoreHandle semphr_touch;
+extern xQueueHandle cola_adc;
+extern xSemaphoreHandle semaforo_buzzer;
+extern xSemaphoreHandle semaforo_usr;
+extern xSemaphoreHandle semaforo_touch;
 
 // Prototipos de callbacks
 
-void cny70_callback(pint_pin_int_t pintr, pint_status_t pmatch_status);
-void usr_callback(pint_pin_int_t pintr, pint_status_t pmatch_status);
+void cny70_callback(pint_pin_int_t pintr, pint_status_t *pmatch_status);
+void usr_callback(pint_pin_int_t pintr, pint_status_t *pmatch_status);

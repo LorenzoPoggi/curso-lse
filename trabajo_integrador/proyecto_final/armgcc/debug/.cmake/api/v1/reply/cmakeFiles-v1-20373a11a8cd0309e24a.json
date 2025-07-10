@@ -5,6 +5,24 @@
 			"path" : "CMakeLists.txt"
 		},
 		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/tools/cmake_toolchain_files/armgcc.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/tools/cmake_toolchain_files/mcux_config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeSystem.cmake.in"
+		},
+		{
 			"isGenerated" : true,
 			"path" : "debug/CMakeFiles/3.30.0/CMakeSystem.cmake"
 		},
@@ -15,6 +33,11 @@
 		{
 			"isExternal" : true,
 			"path" : "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/tools/cmake_toolchain_files/mcux_config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -1065,6 +1088,41 @@
 			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake"
 		},
 		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeASMCompiler.cmake.in"
+		},
+		{
 			"isGenerated" : true,
 			"path" : "debug/CMakeFiles/3.30.0/CMakeASMCompiler.cmake"
 		},
@@ -1082,6 +1140,11 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Users/lorenzo.poggi/.mcuxpressotools/cmake-3.30.0-macos10.10-universal/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestASMCompiler.cmake"
 		},
 		{
 			"path" : "flags.cmake"

@@ -1171,18 +1171,18 @@ LOAD /Users/lorenzo.poggi/.mcuxpressotools/arm-gnu-toolchain-13.2.Rel1-darwin-ar
                 0x00000938       0x3a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c.obj
  .text.ADC_DoSoftwareTriggerConvSeqB
                 0x00000972       0x1e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c.obj
- .text.task_init
+ .text.tarea_inic
                 0x00000990      0x114 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c.obj
-                0x00000990                task_init
+                0x00000990                tarea_inic
  .text.task_user
                 0x00000aa4       0x5c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c.obj
                 0x00000aa4                task_user
- .text.task_adc_seq_a
+ .text.tarea_adc_seq_a
                 0x00000b00       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c.obj
-                0x00000b00                task_adc_seq_a
- .text.task_adc_seq_b
+                0x00000b00                tarea_adc_seq_a
+ .text.tarea_adc_seq_b
                 0x00000b54       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c.obj
-                0x00000b54                task_adc_seq_b
+                0x00000b54                tarea_adc_seq_b
  .text.main     0x00000ba8       0x90 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c.obj
                 0x00000ba8                main
  .text.CLOCK_Select

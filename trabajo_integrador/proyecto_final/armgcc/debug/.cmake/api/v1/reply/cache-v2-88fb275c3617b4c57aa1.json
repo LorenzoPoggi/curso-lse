@@ -46,6 +46,22 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_ASM_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_ASM_COMPILER_AR",
 			"properties" : 
 			[
@@ -119,7 +135,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -g -g -g -g -g"
+			"value" : " -g -g"
 		},
 		{
 			"name" : "CMAKE_ASM_FLAGS_MINSIZEREL",
@@ -343,7 +359,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g"
+			"value" : " -O0 -g -O0 -g"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
@@ -375,7 +391,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -O3  -O3  -O3  -O3  -O3 "
+			"value" : " -O3  -O3 "
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
@@ -471,7 +487,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -O0 -g -O0 -g -O0 -g -O0 -g -O0 -g"
+			"value" : " -O0 -g -O0 -g"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
@@ -503,7 +519,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " -O3  -O3  -O3  -O3  -O3 "
+			"value" : " -O3  -O3 "
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
@@ -1271,10 +1287,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "FILEPATH",
 			"value" : "/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/tools/cmake_toolchain_files/armgcc.cmake"
 		},
 		{

@@ -11,6 +11,11 @@
 #include "wrappers.h"
 #include "isr.h"
 
+typedef enum {
+    kDISPLAY_LUZ,
+    kDISPLAY_SETPOINT
+} display_variable_t;
+
 // Prioridades de tareas
 
 #define tskINIT_PRIORITY						(tskIDLE_PRIORITY + 3UL)
@@ -25,6 +30,9 @@
 #define tskBUZZER_PRIORITY					(tskIDLE_PRIORITY + 2UL)
 #define tskCOUNTER_PRIORITY					(tskIDLE_PRIORITY + 1UL)
 #define tskCOUNTER_BTNS_PRIORITY		(tskIDLE_PRIORITY + 2UL)
+#define tskSETPOINT_PRIORITY (tskIDLE_PRIORITY + 2UL)
+#define tskCNY70_PRIORITY (tskIDLE_PRIORITY + 2UL)
+
 
 // Stacks para tareas
 
@@ -40,23 +48,29 @@
 #define tskBUZZER_STACK					(configMINIMAL_STACK_SIZE)
 #define tskCOUNTER_STACK				(configMINIMAL_STACK_SIZE)
 #define tskCOUNTER_BTNS_STACK		(configMINIMAL_STACK_SIZE)
+#define tskSETPOINT_STACK    (configMINIMAL_STACK_SIZE)
+#define tskCNY70_STACK    (configMINIMAL_STACK_SIZE)
+
 
 // Handler para la tarea de display write
 extern TaskHandle_t handle_display;
 
 // Prototipos de funciones
-void task_init(void *params);
-void task_adc(void *params);
-void task_display_change(void *params);
-void task_control(void *params);
-void task_display(void *params);
-void task_pwm(void *params);
-void task_bh1750(void *params);
-void task_animation(void *params);
-void task_blinky(void *params);
-void task_buzzer(void *params);
-void task_counter(void *params);
-void task_counter_btns(void *params);
+void tarea_inic(void *params);
+void tarea_adc(void *params);
+void tarea_display_change(void *params);
+void tarea_control(void *params);
+void tarea_display(void *params);
+void tarea_pwm(void *params);
+void tarea_bh1750(void *params);
+void tarea_animation(void *params);
+void tarea_blinky(void *params);
+void tarea_buzzer(void *params);
+void tarea_counter(void *params);
+void tarea_counter_btns(void *params);
+void tarea_setpoint(void *params);
+void tarea_cny70(void *params);
+
 
 /**
  * @brief Wrapper que verifica el estado de un pulsador con pull-up

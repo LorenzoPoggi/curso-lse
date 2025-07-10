@@ -9,8 +9,8 @@
 /Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/04_alarma_sdk/devices/LPC845/drivers/./fsl_adc.h:497:20:ADC_DoSoftwareTriggerConvSeqA	16	static
 /Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/04_alarma_sdk/devices/LPC845/drivers/./fsl_adc.h:555:20:ADC_EnableConvSeqB	16	static
 /Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/sdks/04_alarma_sdk/devices/LPC845/drivers/./fsl_adc.h:580:20:ADC_DoSoftwareTriggerConvSeqB	16	static
-/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c:27:6:task_init	56	static
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c:27:6:tarea_inic	56	static
 /Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c:82:6:task_user	24	static
-/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c:101:6:task_adc_seq_a	40	static
-/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c:125:6:task_adc_seq_b	40	static
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c:101:6:tarea_adc_seq_a	40	static
+/Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c:125:6:tarea_adc_seq_b	40	static
 /Users/lorenzo.poggi/Documents/GitHub/curso-lse/workspace_lpc845/04_alarma/main.c:149:5:main	16	static

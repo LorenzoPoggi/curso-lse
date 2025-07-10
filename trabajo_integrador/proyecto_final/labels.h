@@ -1,4 +1,3 @@
-#ifndef _LABELS_H_
 #define _LABELS_H_
 
 // Canal del ADC para el potenciometro
@@ -57,11 +56,3 @@ typedef struct {
 	uint16_t temp_raw;
 	uint16_t ref_raw;
 } adc_data_t;
-
-// Enum para indicar que se muestra en el display
-typedef enum {
-	kDISPLAY_TEMP,	// Se muestra la temperatura
-	kDISPLAY_REF	// Se muestra la referencia
-} display_variable_t;
-
-#endif

@@ -24,7 +24,7 @@ TaskHandle_t seq_a_handle = NULL, seq_b_handle = NULL;
  * @brief Tarea de inicializacion
  * @param params puntero a datos
  */
-void task_init(void *params) {
+void tarea_inic(void *params) {
 	// Inicializo boton de USER
 	GPIO_PortInit(GPIO, 0);
 	gpio_pin_config_t input = { kGPIO_DigitalInput };
@@ -98,7 +98,7 @@ void task_user(void *params) {
  * @brief Tarea de ADC con secuencia A
  * @param params puntero a datos
  */
-void task_adc_seq_a(void *params) {
+void tarea_adc_seq_a(void *params) {
 	// Resultado de conversion
 	adc_result_info_t adc_info;
 
@@ -122,7 +122,7 @@ void task_adc_seq_a(void *params) {
  * @brief Tarea de ADC con secuencia B
  * @param params puntero a datos
  */
-void task_adc_seq_b(void *params) {
+void tarea_adc_seq_b(void *params) {
 	// Resultado de conversion
 	adc_result_info_t adc_info;
 
@@ -153,10 +153,10 @@ int main(void) {
 
     // Creo tareas
 
-    xTaskCreate(task_init, "Init", 2 * configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2, NULL);
+    xTaskCreate(tarea_inic, "Init", 2 * configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2, NULL);
     xTaskCreate(task_user, "User", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1, NULL);
-    xTaskCreate(task_adc_seq_a, "SEQ A", 2 * configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1, &seq_a_handle);
-    xTaskCreate(task_adc_seq_b, "SEQ B", 2 * configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, &seq_b_handle);
+    xTaskCreate(tarea_adc_seq_a, "SEQ A", 2 * configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1, &seq_a_handle);
+    xTaskCreate(tarea_adc_seq_b, "SEQ B", 2 * configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, &seq_b_handle);
 
     // Arranco scheduler
     vTaskStartScheduler();
