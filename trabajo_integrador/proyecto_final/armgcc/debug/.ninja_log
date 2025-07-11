@@ -68,3 +68,14 @@
 3	49	1752178320667116263	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj	fe51274ef4abf781
 2	57	1752178320666989514	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj	cadd9dd27b53744f
 57	113	1752178320721965314	new_project.elf	e4879a3c11459f17
+2	27	1752242101035793736	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/gcc/startup_LPC845.S.obj	15dc8f7503830c5c
+1	77	1752242101035343607	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/main.c.obj	293c7a3e49acb965
+2	77	1752242101035693401	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj	fe51274ef4abf781
+2	88	1752242101035582692	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj	cadd9dd27b53744f
+88	116	1752242101121988403	new_project.elf	e4879a3c11459f17
+2	41	1752242465694531640	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/main.c.obj	293c7a3e49acb965
+2	41	1752242465694901183	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj	fe51274ef4abf781
+2	52	1752242465694785891	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj	cadd9dd27b53744f
+52	81	1752242465744781073	new_project.elf	e4879a3c11459f17
+2	43	1752242521274131810	CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj	fe51274ef4abf781
+43	74	1752242521314747723	new_project.elf	e4879a3c11459f17

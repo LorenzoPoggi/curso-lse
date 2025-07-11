@@ -2796,33 +2796,33 @@ LOAD linker stubs
  .debug_line_str
                 0x00000387       0xf0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-strlen.o)
 
-.debug_info     0x00000000    0x17fa0
+.debug_info     0x00000000    0x17fb3
  .debug_info    0x00000000      0x259 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/main.c.obj
  .debug_info    0x00000259      0xa3e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/clock_config.c.obj
- .debug_info    0x00000c97     0x1136 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
- .debug_info    0x00001dcd      0x8d8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
- .debug_info    0x000026a5     0x32e4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
- .debug_info    0x00005989      0x37b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/gcc/startup_LPC845.S.obj
- .debug_info    0x00005d04      0x60e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/system_LPC845.c.obj
- .debug_info    0x00006312     0x10af CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
- .debug_info    0x000073c1     0x130b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
- .debug_info    0x000086cc      0x157 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
- .debug_info    0x00008823     0x124a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
- .debug_info    0x00009a6d      0xdfa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
- .debug_info    0x0000a867     0x2761 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
- .debug_info    0x0000cfc8     0x1de0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
- .debug_info    0x0000eda8     0x1a95 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
- .debug_info    0x0001083d      0x719 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
- .debug_info    0x00010f56     0x1d92 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- .debug_info    0x00012ce8      0x76a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
- .debug_info    0x00013452      0x126 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
- .debug_info    0x00013578      0xce5 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
- .debug_info    0x0001425d       0xa3 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_newlib_nohost.a(_exit.o)
- .debug_info    0x00014300     0x1264 freertos/libfreertos.a(queue.c.obj)
- .debug_info    0x00015564     0x20a5 freertos/libfreertos.a(tasks.c.obj)
- .debug_info    0x00017609      0x36e freertos/libfreertos.a(heap_2.c.obj)
- .debug_info    0x00017977      0x38a freertos/libfreertos.a(port.c.obj)
- .debug_info    0x00017d01      0x29f freertos/libfreertos.a(list.c.obj)
+ .debug_info    0x00000c97     0x113e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+ .debug_info    0x00001dd5      0x8e3 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
+ .debug_info    0x000026b8     0x32e4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+ .debug_info    0x0000599c      0x37b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/gcc/startup_LPC845.S.obj
+ .debug_info    0x00005d17      0x60e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/system_LPC845.c.obj
+ .debug_info    0x00006325     0x10af CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+ .debug_info    0x000073d4     0x130b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+ .debug_info    0x000086df      0x157 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
+ .debug_info    0x00008836     0x124a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+ .debug_info    0x00009a80      0xdfa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+ .debug_info    0x0000a87a     0x2761 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+ .debug_info    0x0000cfdb     0x1de0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
+ .debug_info    0x0000edbb     0x1a95 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+ .debug_info    0x00010850      0x719 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+ .debug_info    0x00010f69     0x1d92 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ .debug_info    0x00012cfb      0x76a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
+ .debug_info    0x00013465      0x126 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
+ .debug_info    0x0001358b      0xce5 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .debug_info    0x00014270       0xa3 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_newlib_nohost.a(_exit.o)
+ .debug_info    0x00014313     0x1264 freertos/libfreertos.a(queue.c.obj)
+ .debug_info    0x00015577     0x20a5 freertos/libfreertos.a(tasks.c.obj)
+ .debug_info    0x0001761c      0x36e freertos/libfreertos.a(heap_2.c.obj)
+ .debug_info    0x0001798a      0x38a freertos/libfreertos.a(port.c.obj)
+ .debug_info    0x00017d14      0x29f freertos/libfreertos.a(list.c.obj)
 
 .debug_abbrev   0x00000000     0x3944
  .debug_abbrev  0x00000000       0xec CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/main.c.obj
@@ -2990,7 +2990,7 @@ LOAD linker stubs
                                 0x394 (size before relaxing)
  .debug_str     0x0000ae17     0x1027 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/clock_config.c.obj
  .debug_str     0x0000ae17     0x15bd CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
- .debug_str     0x0000ae17      0xbe2 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
+ .debug_str     0x0000ae17      0xbf1 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
  .debug_str     0x0000ae17     0x41c9 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .debug_str     0x0000ae17      0x6be CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/gcc/startup_LPC845.S.obj
  .debug_str     0x0000ae17      0x5d5 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/system_LPC845.c.obj
