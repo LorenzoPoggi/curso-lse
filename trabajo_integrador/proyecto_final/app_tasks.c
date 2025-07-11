@@ -141,7 +141,7 @@ void tarea_control(void *params) {
     		// Muestra el porcentaje de luminosidad
     		xQueuePeek(cola_luz_percent, &lux_percent, portMAX_DELAY);
     		val = lux_percent;
-		} else if(variable == kDISPLAY_SETPOINT) {
+		} else  {
     		// Muestra el setpoint ajustado con S1/S2
     		val = setpoint;
 		}
@@ -254,12 +254,13 @@ void tarea_blinky(void *params) {
  */
 void tarea_buzzer(void *params) {
 
-	while(1) {
-		// Intenta tomar el semáforo
-		xSemaphoreTake(semaforo_buzzer, portMAX_DELAY);
-		// Conmuto el buzzer
-		wrapper_output_toggle((gpio_t){BUZZER});
-	}
+    while(1) {
+        // Intenta tomar el semáforo
+        xSemaphoreTake(semaforo_buzzer, portMAX_DELAY);
+        // Conmuto el buzzer
+        wrapper_output_toggle((gpio_t){BUZZER});
+
+    }
 }
 
 /**
@@ -308,5 +309,6 @@ void tarea_cny70(void *params) {
 		xSemaphoreTake(semaforo_cny70, portMAX_DELAY);
 		// Hace sonar el buzzer
 		wrapper_output_toggle((gpio_t){BUZZER});
+		vTaskDelay(pdMS_TO_TICKS(50));
 	}
 }

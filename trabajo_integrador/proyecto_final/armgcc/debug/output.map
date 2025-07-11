@@ -1432,7 +1432,7 @@ LOAD /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.
  .crp           0x000002fc        0x4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/gcc/startup_LPC845.S.obj
                 0x00000300                        . = ALIGN (0x4)
 
-.text           0x00000300     0x98b4
+.text           0x00000300     0x98a4
                 0x00000300                        . = ALIGN (0x4)
  *(.text)
  .text          0x00000300       0x80 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
@@ -1579,887 +1579,887 @@ LOAD /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.
                 0x000010d4       0x50 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
                 0x000010d4                tarea_display_change
  .text.tarea_control
-                0x00001124       0xb4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+                0x00001124       0xa8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
                 0x00001124                tarea_control
  .text.tarea_display
-                0x000011d8       0x9c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
-                0x000011d8                tarea_display
+                0x000011cc       0x9c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+                0x000011cc                tarea_display
  .text.tarea_pwm
-                0x00001274       0x8c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
-                0x00001274                tarea_pwm
+                0x00001268       0x8c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+                0x00001268                tarea_pwm
  .text.tarea_bh1750
-                0x00001300       0xa0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
-                0x00001300                tarea_bh1750
+                0x000012f4       0xa0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+                0x000012f4                tarea_bh1750
  .text.tarea_blinky
-                0x000013a0       0x8c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
-                0x000013a0                tarea_blinky
+                0x00001394       0x8c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+                0x00001394                tarea_blinky
  .text.tarea_buzzer
-                0x0000142c       0x3c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
-                0x0000142c                tarea_buzzer
+                0x00001420       0x3c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+                0x00001420                tarea_buzzer
  .text.tarea_counter
-                0x00001468       0x28 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
-                0x00001468                tarea_counter
+                0x0000145c       0x28 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+                0x0000145c                tarea_counter
  .text.tarea_counter_btns
-                0x00001490       0xc8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
-                0x00001490                tarea_counter_btns
+                0x00001484       0xc8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+                0x00001484                tarea_counter_btns
  .text.tarea_cny70
-                0x00001558       0x3c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
-                0x00001558                tarea_cny70
+                0x0000154c       0x40 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+                0x0000154c                tarea_cny70
  .text.ADC_GetStatusFlags
-                0x00001594       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
+                0x0000158c       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
  .text.ADC_ClearStatusFlags
-                0x000015a8       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
+                0x000015a0       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
  .text.CAPT_ClearInterruptStatusFlags
-                0x000015c0       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
+                0x000015b8       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
  .text.cny70_callback
-                0x000015d8       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
-                0x000015d8                cny70_callback
+                0x000015d0       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
+                0x000015d0                cny70_callback
  .text.ADC0_SEQA_IRQHandler
-                0x0000162c       0xa0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
-                0x0000162c                ADC0_SEQA_IRQHandler
+                0x00001624       0xa0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
+                0x00001624                ADC0_SEQA_IRQHandler
  .text.CMP_CAPT_IRQHandler
-                0x000016cc       0x4c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
-                0x000016cc                CMP_CAPT_IRQHandler
+                0x000016c4       0x4c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
+                0x000016c4                CMP_CAPT_IRQHandler
  .text.__NVIC_EnableIRQ
-                0x00001718       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001710       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.CLOCK_EnableClock
-                0x0000174c       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001744       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.CLOCK_DisableClock
-                0x000017a0       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001798       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.CLOCK_Select
-                0x000017f8       0x38 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x000017f0       0x38 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.CLOCK_SetClkDivider
-                0x00001830       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001828       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.CLOCK_GetClkDivider
-                0x00001860       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001858       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.GPIO_PinWrite
-                0x0000188c       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001884       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.POWER_DisablePD
-                0x000018b8       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x000018b0       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.IOCON_PinMuxSet
-                0x000018e4       0x26 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x000018dc       0x26 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.ADC_EnableConvSeqA
-                0x0000190a       0x3a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001902       0x3a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.ADC_EnableInterrupts
-                0x00001944       0x22 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
- *fill*         0x00001966        0x2 
+                0x0000193c       0x22 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+ *fill*         0x0000195e        0x2 
  .text.SCTIMER_StartTimer
-                0x00001968      0x108 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001960      0x108 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.I2C_MasterRepeatedStart
-                0x00001a70       0x32 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001a68       0x32 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.CAPT_EnableInterrupts
-                0x00001aa2       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001a9a       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.wrapper_gpio_get_pin
-                0x00001aba       0x1a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001ab2       0x1a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.wrapper_adc_init
-                0x00001ad4       0xdc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00001ad4                wrapper_adc_init
+                0x00001acc       0xdc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001acc                wrapper_adc_init
  .text.wrapper_btn_init
-                0x00001bb0       0x7c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00001bb0                wrapper_btn_init
+                0x00001ba8       0x7c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001ba8                wrapper_btn_init
  .text.wrapper_gpio_enable_irq
-                0x00001c2c       0x8c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00001c2c                wrapper_gpio_enable_irq
+                0x00001c24       0x8c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001c24                wrapper_gpio_enable_irq
  .text.wrapper_display_init
-                0x00001cb8       0x94 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00001cb8                wrapper_display_init
+                0x00001cb0       0x94 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001cb0                wrapper_display_init
  .text.wrapper_display_write
-                0x00001d4c       0xc0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00001d4c                wrapper_display_write
+                0x00001d44       0xc0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001d44                wrapper_display_write
  .text.wrapper_pwm_init
-                0x00001e0c      0x100 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00001e0c                wrapper_pwm_init
+                0x00001e04      0x100 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001e04                wrapper_pwm_init
  .text.wrapper_pwm_update_led
-                0x00001f0c       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001f04       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
  .text.wrapper_pwm_update_bled
-                0x00001f64       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00001f64                wrapper_pwm_update_bled
+                0x00001f5c       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001f5c                wrapper_pwm_update_bled
  .text.wrapper_pwm_update_rled
-                0x00001f90       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00001f90                wrapper_pwm_update_rled
+                0x00001f88       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001f88                wrapper_pwm_update_rled
  .text.wrapper_i2c_init
-                0x00001fbc       0x6c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00001fbc                wrapper_i2c_init
+                0x00001fb4       0x6c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00001fb4                wrapper_i2c_init
  .text.wrapper_bh1750_init
-                0x00002028       0x60 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00002028                wrapper_bh1750_init
+                0x00002020       0x60 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00002020                wrapper_bh1750_init
  .text.wrapper_bh1750_read
-                0x00002088       0x68 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x00002088                wrapper_bh1750_read
+                0x00002080       0x68 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x00002080                wrapper_bh1750_read
  .text.wrapper_touch_init
-                0x000020f0       0xcc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x000020f0                wrapper_touch_init
+                0x000020e8       0xcc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x000020e8                wrapper_touch_init
  .text.wrapper_touch_is_touched
-                0x000021bc       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
-                0x000021bc                wrapper_touch_is_touched
+                0x000021b4       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+                0x000021b4                wrapper_touch_is_touched
  .text.SystemInit
-                0x000021e8       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/system_LPC845.c.obj
-                0x000021e8                SystemInit
+                0x000021e0       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/system_LPC845.c.obj
+                0x000021e0                SystemInit
  .text.SystemInitHook
-                0x00002214        0xa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/system_LPC845.c.obj
-                0x00002214                SystemInitHook
- *fill*         0x0000221e        0x2 
+                0x0000220c        0xa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/system_LPC845.c.obj
+                0x0000220c                SystemInitHook
+ *fill*         0x00002216        0x2 
  .text.CLOCK_EnableClock
-                0x00002220       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+                0x00002218       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
  .text.CAPT_GetInstance
-                0x00002274       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+                0x0000226c       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
  .text.CAPT_Init
-                0x000022c8      0x118 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
-                0x000022c8                CAPT_Init
+                0x000022c0      0x118 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+                0x000022c0                CAPT_Init
  .text.CAPT_GetDefaultConfig
-                0x000023e0       0x78 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
-                0x000023e0                CAPT_GetDefaultConfig
+                0x000023d8       0x78 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+                0x000023d8                CAPT_GetDefaultConfig
  .text.CAPT_SetPollMode
-                0x00002458       0x4a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
-                0x00002458                CAPT_SetPollMode
- *fill*         0x000024a2        0x2 
+                0x00002450       0x4a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+                0x00002450                CAPT_SetPollMode
+ *fill*         0x0000249a        0x2 
  .text.CAPT_GetTouchData
-                0x000024a4       0xb4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
-                0x000024a4                CAPT_GetTouchData
+                0x0000249c       0xb4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+                0x0000249c                CAPT_GetTouchData
  .text.CLOCK_GetCoreSysClkFreq
-                0x00002558       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x00002550       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
  .text.CLOCK_GetSystemPLLFreq
-                0x0000257c       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x00002574       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
  .text.CLOCK_GetWdtOscFreq
-                0x0000259c       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x00002594       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
  .text.CLOCK_GetExtClkFreq
-                0x000025b0       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x000025a8       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
  .text.CLOCK_GetFRGInputClkFreq
-                0x000025c4       0x3e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
- *fill*         0x00002602        0x2 
+                0x000025bc       0x3e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+ *fill*         0x000025fa        0x2 
  .text.CLOCK_UpdateClkSrc
-                0x00002604       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x000025fc       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
  .text.CLOCK_GetFRG0ClkFreq
-                0x0000265c       0x64 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
-                0x0000265c                CLOCK_GetFRG0ClkFreq
+                0x00002654       0x64 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x00002654                CLOCK_GetFRG0ClkFreq
  .text.CLOCK_GetFRG1ClkFreq
-                0x000026c0       0x64 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
-                0x000026c0                CLOCK_GetFRG1ClkFreq
+                0x000026b8       0x64 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x000026b8                CLOCK_GetFRG1ClkFreq
  .text.CLOCK_GetMainClkFreq
-                0x00002724       0x78 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
-                0x00002724                CLOCK_GetMainClkFreq
+                0x0000271c       0x78 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x0000271c                CLOCK_GetMainClkFreq
  .text.CLOCK_GetFroFreq
-                0x0000279c       0x78 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
-                0x0000279c                CLOCK_GetFroFreq
+                0x00002794       0x78 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x00002794                CLOCK_GetFroFreq
  .text.CLOCK_GetFreq
-                0x00002814       0x90 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
-                0x00002814                CLOCK_GetFreq
+                0x0000280c       0x90 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x0000280c                CLOCK_GetFreq
  .text.CLOCK_GetSystemPLLInClockRate
-                0x000028a4       0x64 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
-                0x000028a4                CLOCK_GetSystemPLLInClockRate
+                0x0000289c       0x64 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x0000289c                CLOCK_GetSystemPLLInClockRate
  .text.CLOCK_SetMainClkSrc
-                0x00002908       0x9c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
-                0x00002908                CLOCK_SetMainClkSrc
+                0x00002900       0x9c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x00002900                CLOCK_SetMainClkSrc
  .text.CLOCK_SetFroOutClkSrc
-                0x000029a4       0x48 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
-                0x000029a4                CLOCK_SetFroOutClkSrc
+                0x0000299c       0x48 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x0000299c                CLOCK_SetFroOutClkSrc
  .text.DelayLoop
-                0x000029ec       0x1a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
- *fill*         0x00002a06        0x2 
+                0x000029e4       0x1a CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
+ *fill*         0x000029fe        0x2 
  .text.SDK_DelayAtLeastUs
-                0x00002a08       0x84 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
-                0x00002a08                SDK_DelayAtLeastUs
+                0x00002a00       0x84 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
+                0x00002a00                SDK_DelayAtLeastUs
  .text.CLOCK_EnableClock
-                0x00002a8c       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+                0x00002a84       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
  .text.RESET_ReleasePeripheralReset
-                0x00002ae0       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+                0x00002ad8       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
  .text.ADC_GetInstance
-                0x00002af8       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+                0x00002af0       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
  .text.ADC_Init
-                0x00002b4c       0xb4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
-                0x00002b4c                ADC_Init
+                0x00002b44       0xb4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+                0x00002b44                ADC_Init
  .text.ADC_GetDefaultConfig
-                0x00002c00       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
-                0x00002c00                ADC_GetDefaultConfig
+                0x00002bf8       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+                0x00002bf8                ADC_GetDefaultConfig
  .text.ADC_DoSelfCalibration
-                0x00002c34       0xc0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
-                0x00002c34                ADC_DoSelfCalibration
+                0x00002c2c       0xc0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+                0x00002c2c                ADC_DoSelfCalibration
  .text.ADC_SetConvSeqAConfig
-                0x00002cf4       0xa0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
-                0x00002cf4                ADC_SetConvSeqAConfig
+                0x00002cec       0xa0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+                0x00002cec                ADC_SetConvSeqAConfig
  .text.ADC_GetChannelConversionResult
-                0x00002d94       0xbc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
-                0x00002d94                ADC_GetChannelConversionResult
+                0x00002d8c       0xbc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+                0x00002d8c                ADC_GetChannelConversionResult
  .text.CLOCK_EnableClock
-                0x00002e50       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+                0x00002e48       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
  .text.GPIO_EnablePortClock
-                0x00002ea4       0x44 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+                0x00002e9c       0x44 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
  .text.GPIO_PortInit
-                0x00002ee8       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
-                0x00002ee8                GPIO_PortInit
+                0x00002ee0       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+                0x00002ee0                GPIO_PortInit
  .text.GPIO_PinInit
-                0x00002f18       0xc0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
-                0x00002f18                GPIO_PinInit
+                0x00002f10       0xc0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+                0x00002f10                GPIO_PinInit
  .text.CLOCK_EnableClock
-                0x00002fd8       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00002fd0       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .text.I2C_MasterEnable
-                0x0000302c       0x3c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00003024       0x3c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .text.I2C_GetStatusFlags
-                0x00003068       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00003060       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .text.I2C_MasterClearStatusFlags
-                0x0000307c       0x1c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00003074       0x1c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .text.I2C_GetInstance
-                0x00003098       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x00003098                I2C_GetInstance
+                0x00003090       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00003090                I2C_GetInstance
  .text.I2C_MasterGetDefaultConfig
-                0x000030f0       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x000030f0                I2C_MasterGetDefaultConfig
+                0x000030e8       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x000030e8                I2C_MasterGetDefaultConfig
  .text.I2C_MasterInit
-                0x00003124       0x64 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x00003124                I2C_MasterInit
+                0x0000311c       0x64 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x0000311c                I2C_MasterInit
  .text.I2C_MasterSetBaudRate
-                0x00003188      0x114 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x00003188                I2C_MasterSetBaudRate
+                0x00003180      0x114 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00003180                I2C_MasterSetBaudRate
  .text.I2C_PendingStatusWait
-                0x0000329c       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00003294       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .text.I2C_MasterStart
-                0x000032cc       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x000032cc                I2C_MasterStart
+                0x000032c4       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x000032c4                I2C_MasterStart
  .text.I2C_MasterStop
-                0x00003320       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x00003320                I2C_MasterStop
+                0x00003318       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00003318                I2C_MasterStop
  .text.I2C_MasterWriteBlocking
-                0x00003350      0x124 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x00003350                I2C_MasterWriteBlocking
+                0x00003348      0x124 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00003348                I2C_MasterWriteBlocking
  .text.I2C_MasterReadBlocking
-                0x00003474      0x104 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x00003474                I2C_MasterReadBlocking
+                0x0000346c      0x104 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x0000346c                I2C_MasterReadBlocking
  .text.I2C_TransferCommonIRQHandler
-                0x00003578       0x40 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00003570       0x40 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .text.I2C0_DriverIRQHandler
-                0x000035b8       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x000035b8                I2C0_DriverIRQHandler
+                0x000035b0       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x000035b0                I2C0_DriverIRQHandler
  .text.I2C1_DriverIRQHandler
-                0x000035d8       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x000035d8                I2C1_DriverIRQHandler
+                0x000035d0       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x000035d0                I2C1_DriverIRQHandler
  .text.I2C2_DriverIRQHandler
-                0x000035f8       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
-                0x000035f8                I2C2_DriverIRQHandler
+                0x000035f0       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x000035f0                I2C2_DriverIRQHandler
  .text.USART0_DriverIRQHandler
-                0x00003618       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
-                0x00003618                USART0_DriverIRQHandler
+                0x00003610       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
+                0x00003610                USART0_DriverIRQHandler
  .text.USART1_DriverIRQHandler
-                0x0000363c       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
-                0x0000363c                USART1_DriverIRQHandler
+                0x00003634       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
+                0x00003634                USART1_DriverIRQHandler
  .text.USART2_DriverIRQHandler
-                0x00003660       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
-                0x00003660                USART2_DriverIRQHandler
+                0x00003658       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
+                0x00003658                USART2_DriverIRQHandler
  .text.PIN_INT6_USART3_DriverIRQHandler
-                0x00003684       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
-                0x00003684                PIN_INT6_USART3_DriverIRQHandler
+                0x0000367c       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
+                0x0000367c                PIN_INT6_USART3_DriverIRQHandler
  .text.PIN_INT7_USART4_DriverIRQHandler
-                0x000036a8       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
-                0x000036a8                PIN_INT7_USART4_DriverIRQHandler
+                0x000036a0       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
+                0x000036a0                PIN_INT7_USART4_DriverIRQHandler
  .text.__NVIC_EnableIRQ
-                0x000036cc       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x000036c4       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.__NVIC_ClearPendingIRQ
-                0x00003700       0x38 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x000036f8       0x38 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.CLOCK_EnableClock
-                0x00003738       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003730       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.RESET_ReleasePeripheralReset
-                0x0000378c       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003784       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.EnableIRQ
-                0x000037a4       0x36 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x0000379c       0x36 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.PINT_PinInterruptGetStatus
-                0x000037da       0x26 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x000037d2       0x26 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.PINT_PinInterruptClrFallFlag
-                0x00003800       0x22 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x000037f8       0x22 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.PINT_PinInterruptGetFallFlag
-                0x00003822       0x26 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x0000381a       0x26 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.PINT_PinInterruptClrRiseFlag
-                0x00003848       0x22 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003840       0x22 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.PINT_PinInterruptGetRiseFlag
-                0x0000386a       0x26 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003862       0x26 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.PINT_GetInstance
-                0x00003890       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003888       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.PINT_Init
-                0x000038e4       0xa4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x000038e4                PINT_Init
+                0x000038dc       0xa4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x000038dc                PINT_Init
  .text.PINT_SetCallback
-                0x00003988       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003988                PINT_SetCallback
+                0x00003980       0x2c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003980                PINT_SetCallback
  .text.PINT_PinInterruptConfig
-                0x000039b4       0xd4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x000039b4                PINT_PinInterruptConfig
+                0x000039ac       0xd4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x000039ac                PINT_PinInterruptConfig
  .text.PINT_PatternMatchResetDetectLogic
-                0x00003a88       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003a88                PINT_PatternMatchResetDetectLogic
+                0x00003a80       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003a80                PINT_PatternMatchResetDetectLogic
  .text.PINT_PinInterruptClrStatus
-                0x00003ab8       0x52 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003ab8                PINT_PinInterruptClrStatus
- *fill*         0x00003b0a        0x2 
+                0x00003ab0       0x52 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003ab0                PINT_PinInterruptClrStatus
+ *fill*         0x00003b02        0x2 
  .text.PINT_EnableCallbackByIndex
-                0x00003b0c       0x68 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003b0c                PINT_EnableCallbackByIndex
+                0x00003b04       0x68 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003b04                PINT_EnableCallbackByIndex
  .text.PINT_CommonIRQHanlder
-                0x00003b74       0xdc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003b6c       0xdc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .text.PIN_INT0_DriverIRQHandler
-                0x00003c50       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003c50                PIN_INT0_DriverIRQHandler
+                0x00003c48       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003c48                PIN_INT0_DriverIRQHandler
  .text.PIN_INT1_DriverIRQHandler
-                0x00003c62       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003c62                PIN_INT1_DriverIRQHandler
+                0x00003c5a       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003c5a                PIN_INT1_DriverIRQHandler
  .text.PIN_INT2_DriverIRQHandler
-                0x00003c74       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003c74                PIN_INT2_DriverIRQHandler
+                0x00003c6c       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003c6c                PIN_INT2_DriverIRQHandler
  .text.PIN_INT3_DriverIRQHandler
-                0x00003c86       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003c86                PIN_INT3_DriverIRQHandler
+                0x00003c7e       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003c7e                PIN_INT3_DriverIRQHandler
  .text.PIN_INT4_DriverIRQHandler
-                0x00003c98       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003c98                PIN_INT4_DriverIRQHandler
+                0x00003c90       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003c90                PIN_INT4_DriverIRQHandler
  .text.PIN_INT5_DAC1_IRQHandler
-                0x00003caa       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003caa                PIN_INT5_DAC1_IRQHandler
+                0x00003ca2       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003ca2                PIN_INT5_DAC1_IRQHandler
  .text.PIN_INT6_USART3_IRQHandler
-                0x00003cbc       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003cbc                PIN_INT6_USART3_IRQHandler
+                0x00003cb4       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003cb4                PIN_INT6_USART3_IRQHandler
  .text.PIN_INT7_USART4_IRQHandler
-                0x00003cce       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
-                0x00003cce                PIN_INT7_USART4_IRQHandler
+                0x00003cc6       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x00003cc6                PIN_INT7_USART4_IRQHandler
  .text.RESET_SetPeripheralReset
-                0x00003ce0       0x7c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
-                0x00003ce0                RESET_SetPeripheralReset
+                0x00003cd8       0x7c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+                0x00003cd8                RESET_SetPeripheralReset
  .text.RESET_ClearPeripheralReset
-                0x00003d5c       0x78 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
-                0x00003d5c                RESET_ClearPeripheralReset
+                0x00003d54       0x78 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+                0x00003d54                RESET_ClearPeripheralReset
  .text.RESET_PeripheralReset
-                0x00003dd4       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
-                0x00003dd4                RESET_PeripheralReset
+                0x00003dcc       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+                0x00003dcc                RESET_PeripheralReset
  .text.CLOCK_EnableClock
-                0x00003df4       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00003dec       0x54 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
  .text.SCTIMER_StartTimer
-                0x00003e48      0x108 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00003e40      0x108 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
  .text.SCTIMER_StopTimer
-                0x00003f50      0x104 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00003f48      0x104 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
  .text.SCTIMER_SetupOutputSetAction
-                0x00004054       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x0000404c       0x58 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
  .text.SCTIMER_SetupOutputClearAction
-                0x000040ac       0x5c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x000040a4       0x5c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
  .text.SCTIMER_SetupCounterLimitAction
-                0x00004108       0xdc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00004100       0xdc CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
  .text.SCTIMER_GetInstance
-                0x000041e4       0x5c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x000041dc       0x5c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
  .text.SCTIMER_Init
-                0x00004240      0x154 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
-                0x00004240                SCTIMER_Init
+                0x00004238      0x154 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00004238                SCTIMER_Init
  .text.SCTIMER_GetDefaultConfig
-                0x00004394       0x70 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
-                0x00004394                SCTIMER_GetDefaultConfig
+                0x0000438c       0x70 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x0000438c                SCTIMER_GetDefaultConfig
  .text.SCTIMER_SetupPwm
-                0x00004404      0x304 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
-                0x00004404                SCTIMER_SetupPwm
+                0x000043fc      0x304 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x000043fc                SCTIMER_SetupPwm
  .text.SCTIMER_UpdatePwmDutycycle
-                0x00004708      0x1b8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
-                0x00004708                SCTIMER_UpdatePwmDutycycle
+                0x00004700      0x1b8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00004700                SCTIMER_UpdatePwmDutycycle
  .text.SCTIMER_CreateAndScheduleEvent
-                0x000048c0      0x248 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
-                0x000048c0                SCTIMER_CreateAndScheduleEvent
+                0x000048b8      0x248 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x000048b8                SCTIMER_CreateAndScheduleEvent
  .text.SCTIMER_EventHandleIRQ
-                0x00004b08       0x74 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
-                0x00004b08                SCTIMER_EventHandleIRQ
+                0x00004b00       0x74 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00004b00                SCTIMER_EventHandleIRQ
  .text.SCT0_DriverIRQHandler
-                0x00004b7c       0x1c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
-                0x00004b7c                SCT0_DriverIRQHandler
+                0x00004b74       0x1c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00004b74                SCT0_DriverIRQHandler
  .text.SWM_SetMovablePinSelect
-                0x00004b98       0xa8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
-                0x00004b98                SWM_SetMovablePinSelect
+                0x00004b90       0xa8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
+                0x00004b90                SWM_SetMovablePinSelect
  .text.SWM_SetFixedPinSelect
-                0x00004c40       0xac CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
-                0x00004c40                SWM_SetFixedPinSelect
+                0x00004c38       0xac CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
+                0x00004c38                SWM_SetFixedPinSelect
  .text.fsl_assert_hook
-                0x00004cec       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
-                0x00004cec                fsl_assert_hook
- *fill*         0x00004d02        0x2 
+                0x00004ce4       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
+                0x00004ce4                fsl_assert_hook
+ *fill*         0x00004cfa        0x2 
  .text.__assert_func
-                0x00004d04       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
-                0x00004d04                __assert_func
+                0x00004cfc       0x34 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
+                0x00004cfc                __assert_func
  .text.DbgConsole_Printf
-                0x00004d38       0x32 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x00004d38                DbgConsole_Printf
- *fill*         0x00004d6a        0x2 
+                0x00004d30       0x32 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00004d30                DbgConsole_Printf
+ *fill*         0x00004d62        0x2 
  .text.DbgConsole_Vprintf
-                0x00004d6c       0x40 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x00004d6c                DbgConsole_Vprintf
+                0x00004d64       0x40 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00004d64                DbgConsole_Vprintf
  .text.DbgConsole_Putchar
-                0x00004dac       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x00004dac                DbgConsole_Putchar
+                0x00004da4       0x30 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00004da4                DbgConsole_Putchar
  .text.DbgConsole_PrintfPaddingCharacter
-                0x00004ddc       0x48 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00004dd4       0x48 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_ConvertRadixNumToString
-                0x00004e24       0xc2 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00004e1c       0xc2 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_PrintfFormattedData
-                0x00004ee6      0x3da CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00004ede      0x3da CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.__muldi3
-                0x000052c0       0x5c /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
-                0x000052c0                __aeabi_lmul
-                0x000052c0                __muldi3
+                0x000052b8       0x5c /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+                0x000052b8                __aeabi_lmul
+                0x000052b8                __muldi3
  .text.__fixunssfsi
-                0x0000531c       0x30 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
-                0x0000531c                __aeabi_f2uiz
-                0x0000531c                __fixunssfsi
+                0x00005314       0x30 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+                0x00005314                __aeabi_f2uiz
+                0x00005314                __fixunssfsi
  .text.__udivmoddi4
-                0x0000534c      0x198 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
-                0x0000534c                __udivmoddi4
+                0x00005344      0x198 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x00005344                __udivmoddi4
  .text.__aeabi_fsub
-                0x000054e4      0x38c /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(subsf3.o)
-                0x000054e4                __aeabi_fsub
+                0x000054dc      0x38c /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+                0x000054dc                __aeabi_fsub
  .text.__aeabi_f2iz
-                0x00005870       0x40 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
-                0x00005870                __aeabi_f2iz
+                0x00005868       0x40 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+                0x00005868                __aeabi_f2iz
  .text.__aeabi_ddiv
-                0x000058b0      0x604 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
-                0x000058b0                __aeabi_ddiv
+                0x000058a8      0x604 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
+                0x000058a8                __aeabi_ddiv
  .text.__aeabi_i2d
-                0x00005eb4       0x5c /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(floatsidf.o)
-                0x00005eb4                __aeabi_i2d
+                0x00005eac       0x5c /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(floatsidf.o)
+                0x00005eac                __aeabi_i2d
  .text.__aeabi_d2f
-                0x00005f10      0x10c /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(truncdfsf2.o)
-                0x00005f10                __aeabi_d2f
- .text.__eqsf2  0x0000601c       0x50 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
-                0x0000601c                __nesf2
-                0x0000601c                __eqsf2
- .text.__gesf2  0x0000606c       0x94 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(gesf2.o)
-                0x0000606c                __gtsf2
-                0x0000606c                __gesf2
- .text.__lesf2  0x00006100       0x90 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(lesf2.o)
-                0x00006100                __lesf2
-                0x00006100                __ltsf2
- .text.exit     0x00006190       0x28 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-exit.o)
-                0x00006190                exit
- .text.memset   0x000061b8       0x10 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-memset.o)
-                0x000061b8                memset
+                0x00005f08      0x10c /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(truncdfsf2.o)
+                0x00005f08                __aeabi_d2f
+ .text.__eqsf2  0x00006014       0x50 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+                0x00006014                __nesf2
+                0x00006014                __eqsf2
+ .text.__gesf2  0x00006064       0x94 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+                0x00006064                __gtsf2
+                0x00006064                __gesf2
+ .text.__lesf2  0x000060f8       0x90 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+                0x000060f8                __lesf2
+                0x000060f8                __ltsf2
+ .text.exit     0x00006188       0x28 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-exit.o)
+                0x00006188                exit
+ .text.memset   0x000061b0       0x10 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-memset.o)
+                0x000061b0                memset
  .text.__libc_init_array
-                0x000061c8       0x48 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-init.o)
-                0x000061c8                __libc_init_array
- .text.memcpy   0x00006210       0x12 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
-                0x00006210                memcpy
- .text._exit    0x00006222        0x2 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_newlib_nohost.a(_exit.o)
-                0x00006222                _exit
+                0x000061c0       0x48 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-init.o)
+                0x000061c0                __libc_init_array
+ .text.memcpy   0x00006208       0x12 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-memcpy-stub.o)
+                0x00006208                memcpy
+ .text._exit    0x0000621a        0x2 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_newlib_nohost.a(_exit.o)
+                0x0000621a                _exit
  .text.xQueueGenericReset
-                0x00006224      0x116 freertos/libfreertos.a(queue.c.obj)
-                0x00006224                xQueueGenericReset
+                0x0000621c      0x116 freertos/libfreertos.a(queue.c.obj)
+                0x0000621c                xQueueGenericReset
  .text.xQueueGenericCreate
-                0x0000633a       0xbe freertos/libfreertos.a(queue.c.obj)
-                0x0000633a                xQueueGenericCreate
+                0x00006332       0xbe freertos/libfreertos.a(queue.c.obj)
+                0x00006332                xQueueGenericCreate
  .text.prvInitialiseNewQueue
-                0x000063f8       0x4e freertos/libfreertos.a(queue.c.obj)
+                0x000063f0       0x4e freertos/libfreertos.a(queue.c.obj)
  .text.prvInitialiseMutex
-                0x00006446       0x34 freertos/libfreertos.a(queue.c.obj)
+                0x0000643e       0x34 freertos/libfreertos.a(queue.c.obj)
  .text.xQueueCreateMutex
-                0x0000647a       0x38 freertos/libfreertos.a(queue.c.obj)
-                0x0000647a                xQueueCreateMutex
+                0x00006472       0x38 freertos/libfreertos.a(queue.c.obj)
+                0x00006472                xQueueCreateMutex
  .text.xQueueCreateCountingSemaphore
-                0x000064b2       0x50 freertos/libfreertos.a(queue.c.obj)
-                0x000064b2                xQueueCreateCountingSemaphore
+                0x000064aa       0x50 freertos/libfreertos.a(queue.c.obj)
+                0x000064aa                xQueueCreateCountingSemaphore
  .text.xQueueGenericSend
-                0x00006502      0x172 freertos/libfreertos.a(queue.c.obj)
-                0x00006502                xQueueGenericSend
+                0x000064fa      0x172 freertos/libfreertos.a(queue.c.obj)
+                0x000064fa                xQueueGenericSend
  .text.xQueueGenericSendFromISR
-                0x00006674      0x114 freertos/libfreertos.a(queue.c.obj)
-                0x00006674                xQueueGenericSendFromISR
+                0x0000666c      0x114 freertos/libfreertos.a(queue.c.obj)
+                0x0000666c                xQueueGenericSendFromISR
  .text.xQueueGiveFromISR
-                0x00006788       0xf6 freertos/libfreertos.a(queue.c.obj)
-                0x00006788                xQueueGiveFromISR
+                0x00006780       0xf6 freertos/libfreertos.a(queue.c.obj)
+                0x00006780                xQueueGiveFromISR
  .text.xQueueSemaphoreTake
-                0x0000687e      0x192 freertos/libfreertos.a(queue.c.obj)
-                0x0000687e                xQueueSemaphoreTake
+                0x00006876      0x192 freertos/libfreertos.a(queue.c.obj)
+                0x00006876                xQueueSemaphoreTake
  .text.xQueuePeek
-                0x00006a10      0x156 freertos/libfreertos.a(queue.c.obj)
-                0x00006a10                xQueuePeek
+                0x00006a08      0x156 freertos/libfreertos.a(queue.c.obj)
+                0x00006a08                xQueuePeek
  .text.uxQueueMessagesWaiting
-                0x00006b66       0x2c freertos/libfreertos.a(queue.c.obj)
-                0x00006b66                uxQueueMessagesWaiting
+                0x00006b5e       0x2c freertos/libfreertos.a(queue.c.obj)
+                0x00006b5e                uxQueueMessagesWaiting
  .text.prvGetDisinheritPriorityAfterTimeout
-                0x00006b92       0x2c freertos/libfreertos.a(queue.c.obj)
+                0x00006b8a       0x2c freertos/libfreertos.a(queue.c.obj)
  .text.prvCopyDataToQueue
-                0x00006bbe       0xd6 freertos/libfreertos.a(queue.c.obj)
+                0x00006bb6       0xd6 freertos/libfreertos.a(queue.c.obj)
  .text.prvCopyDataFromQueue
-                0x00006c94       0x4c freertos/libfreertos.a(queue.c.obj)
+                0x00006c8c       0x4c freertos/libfreertos.a(queue.c.obj)
  .text.prvUnlockQueue
-                0x00006ce0       0xbc freertos/libfreertos.a(queue.c.obj)
+                0x00006cd8       0xbc freertos/libfreertos.a(queue.c.obj)
  .text.prvIsQueueEmpty
-                0x00006d9c       0x2c freertos/libfreertos.a(queue.c.obj)
+                0x00006d94       0x2c freertos/libfreertos.a(queue.c.obj)
  .text.prvIsQueueFull
-                0x00006dc8       0x30 freertos/libfreertos.a(queue.c.obj)
+                0x00006dc0       0x30 freertos/libfreertos.a(queue.c.obj)
  .text.prvCreateTask
-                0x00006df8       0x82 freertos/libfreertos.a(tasks.c.obj)
+                0x00006df0       0x82 freertos/libfreertos.a(tasks.c.obj)
  .text.xTaskCreate
-                0x00006e7a       0x4c freertos/libfreertos.a(tasks.c.obj)
-                0x00006e7a                xTaskCreate
- *fill*         0x00006ec6        0x2 
+                0x00006e72       0x4c freertos/libfreertos.a(tasks.c.obj)
+                0x00006e72                xTaskCreate
+ *fill*         0x00006ebe        0x2 
  .text.prvInitialiseNewTask
-                0x00006ec8      0x108 freertos/libfreertos.a(tasks.c.obj)
+                0x00006ec0      0x108 freertos/libfreertos.a(tasks.c.obj)
  .text.prvAddNewTaskToReadyList
-                0x00006fd0      0x120 freertos/libfreertos.a(tasks.c.obj)
+                0x00006fc8      0x120 freertos/libfreertos.a(tasks.c.obj)
  .text.vTaskDelete
-                0x000070f0       0xec freertos/libfreertos.a(tasks.c.obj)
-                0x000070f0                vTaskDelete
+                0x000070e8       0xec freertos/libfreertos.a(tasks.c.obj)
+                0x000070e8                vTaskDelete
  .text.vTaskDelay
-                0x000071dc       0x4c freertos/libfreertos.a(tasks.c.obj)
-                0x000071dc                vTaskDelay
+                0x000071d4       0x4c freertos/libfreertos.a(tasks.c.obj)
+                0x000071d4                vTaskDelay
  .text.prvCreateIdleTasks
-                0x00007228       0x98 freertos/libfreertos.a(tasks.c.obj)
+                0x00007220       0x98 freertos/libfreertos.a(tasks.c.obj)
  .text.vTaskStartScheduler
-                0x000072c0       0x58 freertos/libfreertos.a(tasks.c.obj)
-                0x000072c0                vTaskStartScheduler
+                0x000072b8       0x58 freertos/libfreertos.a(tasks.c.obj)
+                0x000072b8                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x00007318       0x18 freertos/libfreertos.a(tasks.c.obj)
-                0x00007318                vTaskSuspendAll
+                0x00007310       0x18 freertos/libfreertos.a(tasks.c.obj)
+                0x00007310                vTaskSuspendAll
  .text.prvGetExpectedIdleTime
-                0x00007330       0x70 freertos/libfreertos.a(tasks.c.obj)
+                0x00007328       0x70 freertos/libfreertos.a(tasks.c.obj)
  .text.xTaskResumeAll
-                0x000073a0      0x1ec freertos/libfreertos.a(tasks.c.obj)
-                0x000073a0                xTaskResumeAll
+                0x00007398      0x1ec freertos/libfreertos.a(tasks.c.obj)
+                0x00007398                xTaskResumeAll
  .text.uxTaskGetNumberOfTasks
-                0x0000758c       0x14 freertos/libfreertos.a(tasks.c.obj)
-                0x0000758c                uxTaskGetNumberOfTasks
+                0x00007584       0x14 freertos/libfreertos.a(tasks.c.obj)
+                0x00007584                uxTaskGetNumberOfTasks
  .text.vTaskStepTick
-                0x000075a0       0x84 freertos/libfreertos.a(tasks.c.obj)
-                0x000075a0                vTaskStepTick
+                0x00007598       0x84 freertos/libfreertos.a(tasks.c.obj)
+                0x00007598                vTaskStepTick
  .text.xTaskIncrementTick
-                0x00007624      0x21c freertos/libfreertos.a(tasks.c.obj)
-                0x00007624                xTaskIncrementTick
+                0x0000761c      0x21c freertos/libfreertos.a(tasks.c.obj)
+                0x0000761c                xTaskIncrementTick
  .text.vTaskSwitchContext
-                0x00007840       0xa8 freertos/libfreertos.a(tasks.c.obj)
-                0x00007840                vTaskSwitchContext
+                0x00007838       0xa8 freertos/libfreertos.a(tasks.c.obj)
+                0x00007838                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x000078e8       0x40 freertos/libfreertos.a(tasks.c.obj)
-                0x000078e8                vTaskPlaceOnEventList
+                0x000078e0       0x40 freertos/libfreertos.a(tasks.c.obj)
+                0x000078e0                vTaskPlaceOnEventList
  .text.xTaskRemoveFromEventList
-                0x00007928      0x1a0 freertos/libfreertos.a(tasks.c.obj)
-                0x00007928                xTaskRemoveFromEventList
+                0x00007920      0x1a0 freertos/libfreertos.a(tasks.c.obj)
+                0x00007920                xTaskRemoveFromEventList
  .text.vTaskInternalSetTimeOutState
-                0x00007ac8       0x28 freertos/libfreertos.a(tasks.c.obj)
-                0x00007ac8                vTaskInternalSetTimeOutState
+                0x00007ac0       0x28 freertos/libfreertos.a(tasks.c.obj)
+                0x00007ac0                vTaskInternalSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x00007af0       0xac freertos/libfreertos.a(tasks.c.obj)
-                0x00007af0                xTaskCheckForTimeOut
+                0x00007ae8       0xac freertos/libfreertos.a(tasks.c.obj)
+                0x00007ae8                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x00007b9c       0x14 freertos/libfreertos.a(tasks.c.obj)
-                0x00007b9c                vTaskMissedYield
+                0x00007b94       0x14 freertos/libfreertos.a(tasks.c.obj)
+                0x00007b94                vTaskMissedYield
  .text.prvIdleTask
-                0x00007bb0       0x64 freertos/libfreertos.a(tasks.c.obj)
+                0x00007ba8       0x64 freertos/libfreertos.a(tasks.c.obj)
  .text.eTaskConfirmSleepModeStatus
-                0x00007c14       0x78 freertos/libfreertos.a(tasks.c.obj)
-                0x00007c14                eTaskConfirmSleepModeStatus
+                0x00007c0c       0x78 freertos/libfreertos.a(tasks.c.obj)
+                0x00007c0c                eTaskConfirmSleepModeStatus
  .text.prvInitialiseTaskLists
-                0x00007c8c       0x88 freertos/libfreertos.a(tasks.c.obj)
+                0x00007c84       0x88 freertos/libfreertos.a(tasks.c.obj)
  .text.prvCheckTasksWaitingTermination
-                0x00007d14       0x5c freertos/libfreertos.a(tasks.c.obj)
+                0x00007d0c       0x5c freertos/libfreertos.a(tasks.c.obj)
  .text.prvDeleteTCB
-                0x00007d70       0x22 freertos/libfreertos.a(tasks.c.obj)
- *fill*         0x00007d92        0x2 
+                0x00007d68       0x22 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x00007d8a        0x2 
  .text.prvResetNextTaskUnblockTime
-                0x00007d94       0x34 freertos/libfreertos.a(tasks.c.obj)
+                0x00007d8c       0x34 freertos/libfreertos.a(tasks.c.obj)
  .text.xTaskPriorityInherit
-                0x00007dc8      0x124 freertos/libfreertos.a(tasks.c.obj)
-                0x00007dc8                xTaskPriorityInherit
+                0x00007dc0      0x124 freertos/libfreertos.a(tasks.c.obj)
+                0x00007dc0                xTaskPriorityInherit
  .text.xTaskPriorityDisinherit
-                0x00007eec      0x10c freertos/libfreertos.a(tasks.c.obj)
-                0x00007eec                xTaskPriorityDisinherit
+                0x00007ee4      0x10c freertos/libfreertos.a(tasks.c.obj)
+                0x00007ee4                xTaskPriorityDisinherit
  .text.vTaskPriorityDisinheritAfterTimeout
-                0x00007ff8      0x134 freertos/libfreertos.a(tasks.c.obj)
-                0x00007ff8                vTaskPriorityDisinheritAfterTimeout
+                0x00007ff0      0x134 freertos/libfreertos.a(tasks.c.obj)
+                0x00007ff0                vTaskPriorityDisinheritAfterTimeout
  .text.pvTaskIncrementMutexHeldCount
-                0x0000812c       0x2c freertos/libfreertos.a(tasks.c.obj)
-                0x0000812c                pvTaskIncrementMutexHeldCount
+                0x00008124       0x2c freertos/libfreertos.a(tasks.c.obj)
+                0x00008124                pvTaskIncrementMutexHeldCount
  .text.prvAddCurrentTaskToDelayedList
-                0x00008158       0xe4 freertos/libfreertos.a(tasks.c.obj)
+                0x00008150       0xe4 freertos/libfreertos.a(tasks.c.obj)
  .text.pvPortMalloc
-                0x0000823c      0x140 freertos/libfreertos.a(heap_2.c.obj)
-                0x0000823c                pvPortMalloc
+                0x00008234      0x140 freertos/libfreertos.a(heap_2.c.obj)
+                0x00008234                pvPortMalloc
  .text.vPortFree
-                0x0000837c       0xac freertos/libfreertos.a(heap_2.c.obj)
-                0x0000837c                vPortFree
+                0x00008374       0xac freertos/libfreertos.a(heap_2.c.obj)
+                0x00008374                vPortFree
  .text.prvHeapInit
-                0x00008428       0x50 freertos/libfreertos.a(heap_2.c.obj)
+                0x00008420       0x50 freertos/libfreertos.a(heap_2.c.obj)
  .text.pxPortInitialiseStack
-                0x00008478       0x54 freertos/libfreertos.a(port.c.obj)
-                0x00008478                pxPortInitialiseStack
+                0x00008470       0x54 freertos/libfreertos.a(port.c.obj)
+                0x00008470                pxPortInitialiseStack
  .text.prvTaskExitError
-                0x000084cc       0x30 freertos/libfreertos.a(port.c.obj)
+                0x000084c4       0x30 freertos/libfreertos.a(port.c.obj)
  .text.SVC_Handler
-                0x000084fc        0xa freertos/libfreertos.a(port.c.obj)
-                0x000084fc                SVC_Handler
- *fill*         0x00008506        0xa 
+                0x000084f4        0xa freertos/libfreertos.a(port.c.obj)
+                0x000084f4                SVC_Handler
+ *fill*         0x000084fe        0x2 
  .text.vPortStartFirstTask
-                0x00008510       0x38 freertos/libfreertos.a(port.c.obj)
+                0x00008500       0x38 freertos/libfreertos.a(port.c.obj)
  .text.xPortStartScheduler
-                0x00008548       0x48 freertos/libfreertos.a(port.c.obj)
-                0x00008548                xPortStartScheduler
+                0x00008538       0x48 freertos/libfreertos.a(port.c.obj)
+                0x00008538                xPortStartScheduler
  .text.vPortYield
-                0x00008590       0x20 freertos/libfreertos.a(port.c.obj)
-                0x00008590                vPortYield
+                0x00008580       0x20 freertos/libfreertos.a(port.c.obj)
+                0x00008580                vPortYield
  .text.vPortEnterCritical
-                0x000085b0       0x24 freertos/libfreertos.a(port.c.obj)
-                0x000085b0                vPortEnterCritical
+                0x000085a0       0x24 freertos/libfreertos.a(port.c.obj)
+                0x000085a0                vPortEnterCritical
  .text.vPortExitCritical
-                0x000085d4       0x30 freertos/libfreertos.a(port.c.obj)
-                0x000085d4                vPortExitCritical
+                0x000085c4       0x30 freertos/libfreertos.a(port.c.obj)
+                0x000085c4                vPortExitCritical
  .text.ulSetInterruptMaskFromISR
-                0x00008604        0xc freertos/libfreertos.a(port.c.obj)
-                0x00008604                ulSetInterruptMaskFromISR
+                0x000085f4        0xc freertos/libfreertos.a(port.c.obj)
+                0x000085f4                ulSetInterruptMaskFromISR
  .text.vClearInterruptMaskFromISR
-                0x00008610        0x8 freertos/libfreertos.a(port.c.obj)
-                0x00008610                vClearInterruptMaskFromISR
- *fill*         0x00008618        0x8 
+                0x00008600        0x8 freertos/libfreertos.a(port.c.obj)
+                0x00008600                vClearInterruptMaskFromISR
+ *fill*         0x00008608        0x8 
  .text.PendSV_Handler
-                0x00008620       0x48 freertos/libfreertos.a(port.c.obj)
-                0x00008620                PendSV_Handler
+                0x00008610       0x48 freertos/libfreertos.a(port.c.obj)
+                0x00008610                PendSV_Handler
  .text.SysTick_Handler
-                0x00008668       0x34 freertos/libfreertos.a(port.c.obj)
-                0x00008668                SysTick_Handler
+                0x00008658       0x34 freertos/libfreertos.a(port.c.obj)
+                0x00008658                SysTick_Handler
  .text.vPortSetupTimerInterrupt
-                0x0000869c       0x84 freertos/libfreertos.a(port.c.obj)
-                0x0000869c                vPortSetupTimerInterrupt
+                0x0000868c       0x84 freertos/libfreertos.a(port.c.obj)
+                0x0000868c                vPortSetupTimerInterrupt
  .text.vPortSuppressTicksAndSleep
-                0x00008720      0x194 freertos/libfreertos.a(port.c.obj)
-                0x00008720                vPortSuppressTicksAndSleep
+                0x00008710      0x194 freertos/libfreertos.a(port.c.obj)
+                0x00008710                vPortSuppressTicksAndSleep
  .text.vListInitialise
-                0x000088b4       0x3c freertos/libfreertos.a(list.c.obj)
-                0x000088b4                vListInitialise
+                0x000088a4       0x3c freertos/libfreertos.a(list.c.obj)
+                0x000088a4                vListInitialise
  .text.vListInitialiseItem
-                0x000088f0       0x16 freertos/libfreertos.a(list.c.obj)
-                0x000088f0                vListInitialiseItem
+                0x000088e0       0x16 freertos/libfreertos.a(list.c.obj)
+                0x000088e0                vListInitialiseItem
  .text.vListInsertEnd
-                0x00008906       0x44 freertos/libfreertos.a(list.c.obj)
-                0x00008906                vListInsertEnd
+                0x000088f6       0x44 freertos/libfreertos.a(list.c.obj)
+                0x000088f6                vListInsertEnd
  .text.vListInsert
-                0x0000894a       0x6c freertos/libfreertos.a(list.c.obj)
-                0x0000894a                vListInsert
+                0x0000893a       0x6c freertos/libfreertos.a(list.c.obj)
+                0x0000893a                vListInsert
  .text.uxListRemove
-                0x000089b6       0x50 freertos/libfreertos.a(list.c.obj)
-                0x000089b6                uxListRemove
+                0x000089a6       0x50 freertos/libfreertos.a(list.c.obj)
+                0x000089a6                uxListRemove
  *(.rodata)
- *fill*         0x00008a06        0x2 
- .rodata        0x00008a08       0x6e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/main.c.obj
- *fill*         0x00008a76        0x2 
- .rodata        0x00008a78       0x8c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/clock_config.c.obj
- .rodata        0x00008b04       0x60 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
- .rodata        0x00008b64      0x210 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
- .rodata        0x00008d74       0xd1 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
- *fill*         0x00008e45        0x3 
- .rodata        0x00008e48       0xe0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
- .rodata        0x00008f28       0x97 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
- *fill*         0x00008fbf        0x1 
- .rodata        0x00008fc0       0xe8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
- .rodata        0x000090a8       0xa1 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
- *fill*         0x00009149        0x3 
- .rodata        0x0000914c      0x194 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
- .rodata        0x000092e0       0xb1 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
- *fill*         0x00009391        0x3 
- .rodata        0x00009394       0x8e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
- *fill*         0x00009422        0x2 
- .rodata        0x00009424      0x2af CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- *fill*         0x000096d3        0x1 
- .rodata        0x000096d4       0xaa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
- *fill*         0x0000977e        0x2 
- .rodata        0x00009780       0x3e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
- *fill*         0x000097be        0x2 
- .rodata        0x000097c0        0x5 freertos/libfreertos.a(tasks.c.obj)
+ *fill*         0x000089f6        0x2 
+ .rodata        0x000089f8       0x6e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/main.c.obj
+ *fill*         0x00008a66        0x2 
+ .rodata        0x00008a68       0x8c CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/clock_config.c.obj
+ .rodata        0x00008af4       0x60 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+ .rodata        0x00008b54      0x210 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+ .rodata        0x00008d64       0xd1 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+ *fill*         0x00008e35        0x3 
+ .rodata        0x00008e38       0xe0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+ .rodata        0x00008f18       0x97 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
+ *fill*         0x00008faf        0x1 
+ .rodata        0x00008fb0       0xe8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+ .rodata        0x00009098       0xa1 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+ *fill*         0x00009139        0x3 
+ .rodata        0x0000913c      0x194 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+ .rodata        0x000092d0       0xb1 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+ *fill*         0x00009381        0x3 
+ .rodata        0x00009384       0x8e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+ *fill*         0x00009412        0x2 
+ .rodata        0x00009414      0x2af CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ *fill*         0x000096c3        0x1 
+ .rodata        0x000096c4       0xaa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
+ *fill*         0x0000976e        0x2 
+ .rodata        0x00009770       0x3e CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
+ *fill*         0x000097ae        0x2 
+ .rodata        0x000097b0        0x5 freertos/libfreertos.a(tasks.c.obj)
  *(.rodata*)
- *fill*         0x000097c5        0x3 
+ *fill*         0x000097b5        0x3 
  .rodata.__func__.0
-                0x000097c8       0x17 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/clock_config.c.obj
- *fill*         0x000097df        0x1 
+                0x000097b8       0x17 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/clock_config.c.obj
+ *fill*         0x000097cf        0x1 
  .rodata.__func__.0
-                0x000097e0       0x13 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
- *fill*         0x000097f3        0x1 
+                0x000097d0       0x13 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+ *fill*         0x000097e3        0x1 
  .rodata.__func__.3
-                0x000097f4       0x11 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
- *fill*         0x00009805        0x3 
+                0x000097e4       0x11 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+ *fill*         0x000097f5        0x3 
  .rodata.__func__.2
-                0x00009808        0xa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
- *fill*         0x00009812        0x2 
+                0x000097f8        0xa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+ *fill*         0x00009802        0x2 
  .rodata.__func__.1
-                0x00009814       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
- *fill*         0x0000982a        0x2 
+                0x00009804       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+ *fill*         0x0000981a        0x2 
  .rodata.__func__.0
-                0x0000982c       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
- *fill*         0x0000983e        0x2 
+                0x0000981c       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+ *fill*         0x0000982e        0x2 
  .rodata.CLOCK_GetFreq
-                0x00009840       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+                0x00009830       0x24 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
  .rodata.__func__.2
-                0x00009864       0x13 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
- *fill*         0x00009877        0x1 
+                0x00009854       0x13 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+ *fill*         0x00009867        0x1 
  .rodata.__func__.0
-                0x00009878       0x13 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
- *fill*         0x0000988b        0x1 
+                0x00009868       0x13 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
+ *fill*         0x0000987b        0x1 
  .rodata.__func__.7
-                0x0000988c       0x10 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+                0x0000987c       0x10 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
  .rodata.__func__.6
-                0x0000989c        0x9 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
- *fill*         0x000098a5        0x3 
+                0x0000988c        0x9 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+ *fill*         0x00009895        0x3 
  .rodata.__func__.5
-                0x000098a8       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
- *fill*         0x000098be        0x2 
+                0x00009898       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+ *fill*         0x000098ae        0x2 
  .rodata.__func__.4
-                0x000098c0       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
- *fill*         0x000098d6        0x2 
+                0x000098b0       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+ *fill*         0x000098c6        0x2 
  .rodata.__func__.0
-                0x000098d8       0x1f CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
- *fill*         0x000098f7        0x1 
+                0x000098c8       0x1f CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+ *fill*         0x000098e7        0x1 
  .rodata.s_gpioClockName
-                0x000098f8        0x4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+                0x000098e8        0x4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
  .rodata.s_gpioResets
-                0x000098fc        0x8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+                0x000098ec        0x8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
  .rodata.__func__.0
-                0x00009904       0x15 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
- *fill*         0x00009919        0x3 
+                0x000098f4       0x15 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+ *fill*         0x00009909        0x3 
  .rodata.s_i2cBases
-                0x0000991c       0x10 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x0000990c       0x10 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .rodata.s_i2cClocks
-                0x0000992c        0x8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x0000991c        0x8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .rodata.s_i2cResets
-                0x00009934       0x10 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00009924       0x10 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .rodata.__func__.13
-                0x00009944       0x10 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x00009934       0x10 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .rodata.__func__.12
-                0x00009954       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
- *fill*         0x0000996a        0x2 
+                0x00009944       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+ *fill*         0x0000995a        0x2 
  .rodata.__func__.11
-                0x0000996c       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+                0x0000995c       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
  .rodata.__func__.10
-                0x00009984       0x17 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
- *fill*         0x0000999b        0x1 
+                0x00009974       0x17 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+ *fill*         0x0000998b        0x1 
  .rodata.s_pintIRQ
-                0x0000999c        0x8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x0000998c        0x8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .rodata.__func__.10
-                0x000099a4       0x11 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
- *fill*         0x000099b5        0x3 
+                0x00009994       0x11 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+ *fill*         0x000099a5        0x3 
  .rodata.__func__.9
-                0x000099b8        0xa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
- *fill*         0x000099c2        0x2 
+                0x000099a8        0xa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+ *fill*         0x000099b2        0x2 
  .rodata.__func__.8
-                0x000099c4       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+                0x000099b4       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
  .rodata.__func__.3
-                0x000099dc       0x1b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
- *fill*         0x000099f7        0x1 
+                0x000099cc       0x1b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+ *fill*         0x000099e7        0x1 
  .rodata.__func__.1
-                0x000099f8       0x19 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
- *fill*         0x00009a11        0x3 
+                0x000099e8       0x19 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+ *fill*         0x00009a01        0x3 
  .rodata.__func__.0
-                0x00009a14       0x1b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
- *fill*         0x00009a2f        0x1 
+                0x00009a04       0x1b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+ *fill*         0x00009a1f        0x1 
  .rodata.__func__.10
-                0x00009a30       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00009a20       0x14 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
  .rodata.__func__.9
-                0x00009a44        0xd CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- *fill*         0x00009a51        0x3 
+                0x00009a34        0xd CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ *fill*         0x00009a41        0x3 
  .rodata.__func__.8
-                0x00009a54       0x19 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- *fill*         0x00009a6d        0x3 
+                0x00009a44       0x19 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ *fill*         0x00009a5d        0x3 
  .rodata.__func__.7
-                0x00009a70       0x11 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- *fill*         0x00009a81        0x3 
+                0x00009a60       0x11 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ *fill*         0x00009a71        0x3 
  .rodata.__func__.6
-                0x00009a84       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+                0x00009a74       0x20 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
  .rodata.__func__.5
-                0x00009aa4       0x1f CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- *fill*         0x00009ac3        0x1 
+                0x00009a94       0x1f CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ *fill*         0x00009ab3        0x1 
  .rodata.__func__.4
-                0x00009ac4       0x1d CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- *fill*         0x00009ae1        0x3 
+                0x00009ab4       0x1d CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ *fill*         0x00009ad1        0x3 
  .rodata.__func__.3
-                0x00009ae4       0x1b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- *fill*         0x00009aff        0x1 
+                0x00009ad4       0x1b CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ *fill*         0x00009aef        0x1 
  .rodata.__func__.2
-                0x00009b00       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- *fill*         0x00009b12        0x2 
+                0x00009af0       0x12 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ *fill*         0x00009b02        0x2 
  .rodata.__func__.1
-                0x00009b14       0x13 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- *fill*         0x00009b27        0x1 
+                0x00009b04       0x13 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ *fill*         0x00009b17        0x1 
  .rodata.__func__.1
-                0x00009b28       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
+                0x00009b18       0x18 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
  .rodata.__func__.0
-                0x00009b40       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
- *fill*         0x00009b56        0x2 
+                0x00009b30       0x16 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
+ *fill*         0x00009b46        0x2 
  .rodata.__aeabi_ddiv
-                0x00009b58       0x40 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
+                0x00009b48       0x40 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
  .rodata.uxTopUsedPriority
-                0x00009b98        0x4 freertos/libfreertos.a(tasks.c.obj)
+                0x00009b88        0x4 freertos/libfreertos.a(tasks.c.obj)
  *(.glue_7)
- .glue_7        0x00009b9c        0x0 linker stubs
+ .glue_7        0x00009b8c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00009b9c        0x0 linker stubs
+ .glue_7t       0x00009b8c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x00009b9c        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+ .eh_frame      0x00009b8c        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  *(.init)
- .init          0x00009b9c        0x4 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
-                0x00009b9c                _init
- .init          0x00009ba0        0x8 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtn.o
+ .init          0x00009b8c        0x4 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
+                0x00009b8c                _init
+ .init          0x00009b90        0x8 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x00009ba8        0x4 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
-                0x00009ba8                _fini
- .fini          0x00009bac        0x8 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtn.o
-                0x00009bb4                        . = ALIGN (0x4)
+ .fini          0x00009b98        0x4 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
+                0x00009b98                _fini
+ .fini          0x00009b9c        0x8 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtn.o
+                0x00009ba4                        . = ALIGN (0x4)
 
-.vfp11_veneer   0x00009bb4        0x0
- .vfp11_veneer  0x00009bb4        0x0 linker stubs
+.vfp11_veneer   0x00009ba4        0x0
+ .vfp11_veneer  0x00009ba4        0x0 linker stubs
 
-.v4_bx          0x00009bb4        0x0
- .v4_bx         0x00009bb4        0x0 linker stubs
+.v4_bx          0x00009ba4        0x0
+ .v4_bx         0x00009ba4        0x0 linker stubs
 
-.iplt           0x00009bb4        0x0
- .iplt          0x00009bb4        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x00009ba4        0x0
+ .iplt          0x00009ba4        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00009bb4        0x8
-                0x00009bb4                        __exidx_start = .
+.ARM            0x00009ba4        0x8
+                0x00009ba4                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x00009bb4        0x8 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.exidx     0x00009ba4        0x8 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
                                  0x10 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x00009bbc        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x00009bac        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x00009bbc                        __exidx_end = .
+                0x00009bac                        __exidx_end = .
 
-.rel.dyn        0x00009bbc        0x0
- .rel.iplt      0x00009bbc        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x00009bac        0x0
+ .rel.iplt      0x00009bac        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.ctors          0x00009bbc        0x0
-                0x00009bbc                        __CTOR_LIST__ = .
+.ctors          0x00009bac        0x0
+                0x00009bac                        __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x00009bbc                        __CTOR_END__ = .
+                0x00009bac                        __CTOR_END__ = .
 
-.dtors          0x00009bbc        0x0
-                0x00009bbc                        __DTOR_LIST__ = .
+.dtors          0x00009bac        0x0
+                0x00009bac                        __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x00009bbc                        __DTOR_END__ = .
+                0x00009bac                        __DTOR_END__ = .
 
-.preinit_array  0x00009bbc        0x0
-                0x00009bbc                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00009bac        0x0
+                0x00009bac                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00009bbc                        PROVIDE (__preinit_array_end = .)
+                0x00009bac                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x00009bbc        0x4
-                0x00009bbc                        PROVIDE (__init_array_start = .)
+.init_array     0x00009bac        0x4
+                0x00009bac                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00009bbc        0x4 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x00009bc0                        PROVIDE (__init_array_end = .)
+ .init_array    0x00009bac        0x4 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x00009bb0                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x00009bc0        0x4
+.fini_array     0x00009bb0        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00009bc0        0x4 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+ .fini_array    0x00009bb0        0x4 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x00009bc4                        __etext = .
-                0x00009bc4                        __DATA_ROM = .
+                0x00009bb4                        __etext = .
+                0x00009bb4                        __DATA_ROM = .
 
-.data           0x10000000       0x10 load address 0x00009bc4
+.data           0x10000000       0x10 load address 0x00009bb4
                 0x10000000                        . = ALIGN (0x4)
                 0x10000000                        __DATA_RAM = .
                 0x10000000                        __data_start__ = .
@@ -2480,21 +2480,21 @@ LOAD /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.
  *(.jcr*)
                 0x10000010                        . = ALIGN (0x4)
                 0x10000010                        __data_end__ = .
-                0x00009bd4                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00009bc4                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x00010000                        text_end = (ORIGIN (m_text) + LENGTH (m_text))
                 0x00000001                        ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
 .tm_clone_table
-                0x10000010        0x0 load address 0x00009bd4
+                0x10000010        0x0 load address 0x00009bc4
  .tm_clone_table
                 0x10000010        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x10000010        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x10000010        0x0 load address 0x00009bd4
+.igot.plt       0x10000010        0x0 load address 0x00009bc4
  .igot.plt      0x10000010        0x0 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.bss            0x10000010     0x2240 load address 0x00009bd4
+.bss            0x10000010     0x2240 load address 0x00009bc4
                 0x10000010                        . = ALIGN (0x4)
                 0x10000010                        __START_BSS = .
                 0x10000010                        __bss_start__ = .
@@ -2637,7 +2637,7 @@ LOAD /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.
                 0x10002250                        __bss_end__ = .
                 0x10002250                        __END_BSS = .
 
-.heap           0x10002250      0x400 load address 0x0000be14
+.heap           0x10002250      0x400 load address 0x0000be04
                 0x10002250                        . = ALIGN (0x8)
                 0x10002250                        __end__ = .
                 0x10002250                        PROVIDE (end = .)
@@ -2647,7 +2647,7 @@ LOAD /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.
                 0x10002650                        __HeapLimit = .
                 0x10002650                        __heap_limit = .
 
-.stack          0x10002650      0x800 load address 0x0000c214
+.stack          0x10002650      0x800 load address 0x0000c204
                 0x10002650                        . = ALIGN (0x8)
                 0x10002e50                        . = (. + STACK_SIZE)
  *fill*         0x10002650      0x800 
@@ -2957,33 +2957,33 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000bea       0x2b freertos/libfreertos.a(list.c.obj)
 
-.debug_line     0x00000000     0xcf2d
+.debug_line     0x00000000     0xcf26
  .debug_line    0x00000000      0x2d5 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/main.c.obj
  .debug_line    0x000002d5      0x515 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/clock_config.c.obj
- .debug_line    0x000007ea      0x8ad CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
- .debug_line    0x00001097      0x4f8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
- .debug_line    0x0000158f      0xae7 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
- .debug_line    0x00002076      0x136 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/gcc/startup_LPC845.S.obj
- .debug_line    0x000021ac      0x4f0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/system_LPC845.c.obj
- .debug_line    0x0000269c      0x6ee CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
- .debug_line    0x00002d8a      0xaf4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
- .debug_line    0x0000387e      0x2b7 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
- .debug_line    0x00003b35      0x753 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
- .debug_line    0x00004288      0x3e0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
- .debug_line    0x00004668     0x14aa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
- .debug_line    0x00005b12      0xed5 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
- .debug_line    0x000069e7      0xc90 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
- .debug_line    0x00007677      0x381 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
- .debug_line    0x000079f8      0xc1d CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
- .debug_line    0x00008615      0x3ab CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
- .debug_line    0x000089c0      0x18d CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
- .debug_line    0x00008b4d      0x943 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
- .debug_line    0x00009490       0x44 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_newlib_nohost.a(_exit.o)
- .debug_line    0x000094d4     0x10a6 freertos/libfreertos.a(queue.c.obj)
- .debug_line    0x0000a57a     0x1aae freertos/libfreertos.a(tasks.c.obj)
- .debug_line    0x0000c028      0x58d freertos/libfreertos.a(heap_2.c.obj)
- .debug_line    0x0000c5b5      0x5d5 freertos/libfreertos.a(port.c.obj)
- .debug_line    0x0000cb8a      0x3a3 freertos/libfreertos.a(list.c.obj)
+ .debug_line    0x000007ea      0x8a6 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/app_tasks.c.obj
+ .debug_line    0x00001090      0x4f8 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/isr.c.obj
+ .debug_line    0x00001588      0xae7 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/wrappers.c.obj
+ .debug_line    0x0000206f      0x136 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/gcc/startup_LPC845.S.obj
+ .debug_line    0x000021a5      0x4f0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/system_LPC845.c.obj
+ .debug_line    0x00002695      0x6ee CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_capt.c.obj
+ .debug_line    0x00002d83      0xaf4 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_clock.c.obj
+ .debug_line    0x00003877      0x2b7 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj
+ .debug_line    0x00003b2e      0x753 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_adc.c.obj
+ .debug_line    0x00004281      0x3e0 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_gpio.c.obj
+ .debug_line    0x00004661     0x14aa CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_i2c.c.obj
+ .debug_line    0x00005b0b      0xed5 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_usart.c.obj
+ .debug_line    0x000069e0      0xc90 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_pint.c.obj
+ .debug_line    0x00007670      0x381 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_reset.c.obj
+ .debug_line    0x000079f1      0xc1d CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_sctimer.c.obj
+ .debug_line    0x0000860e      0x3ab CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/drivers/fsl_swm.c.obj
+ .debug_line    0x000089b9      0x18d CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj
+ .debug_line    0x00008b46      0x943 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/sdks/proyecto_final_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .debug_line    0x00009489       0x44 /Applications/MCUXpressoIDE_24.12.148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_24.12.0.202407110909/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_newlib_nohost.a(_exit.o)
+ .debug_line    0x000094cd     0x10a6 freertos/libfreertos.a(queue.c.obj)
+ .debug_line    0x0000a573     0x1aae freertos/libfreertos.a(tasks.c.obj)
+ .debug_line    0x0000c021      0x58d freertos/libfreertos.a(heap_2.c.obj)
+ .debug_line    0x0000c5ae      0x5d5 freertos/libfreertos.a(port.c.obj)
+ .debug_line    0x0000cb83      0x3a3 freertos/libfreertos.a(list.c.obj)
 
 .debug_str      0x00000000     0xae17
  .debug_str     0x00000000     0xae17 CMakeFiles/new_project.elf.dir/Users/lorenzo.poggi/Documents/GitHub/curso-lse/trabajo_integrador/proyecto_final/main.c.obj

@@ -31,7 +31,7 @@ typedef enum {
 #define tskCOUNTER_PRIORITY					(tskIDLE_PRIORITY + 1UL)
 #define tskCOUNTER_BTNS_PRIORITY		(tskIDLE_PRIORITY + 2UL)
 #define tskSETPOINT_PRIORITY (tskIDLE_PRIORITY + 2UL)
-#define tskCNY70_PRIORITY (tskIDLE_PRIORITY + 2UL)
+#define tskCNY70_PRIORITY (tskIDLE_PRIORITY + 1UL)
 
 
 // Stacks para tareas
