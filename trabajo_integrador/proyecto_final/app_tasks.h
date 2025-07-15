@@ -30,6 +30,7 @@ typedef enum {
 #define tskCOUNTER_BTNS_PRIORITY		(tskIDLE_PRIORITY + 2UL)
 #define tskSETPOINT_PRIORITY (tskIDLE_PRIORITY + 2UL)
 #define tskCNY70_PRIORITY (tskIDLE_PRIORITY + 1UL)
+#define tsk_leds_tricolor_PRIORITY (tskIDLE_PRIORITY + 1UL)
 
 
 // Stacks para tareas
@@ -46,6 +47,7 @@ typedef enum {
 #define tskCOUNTER_BTNS_STACK		(configMINIMAL_STACK_SIZE)
 #define tskSETPOINT_STACK    (configMINIMAL_STACK_SIZE)
 #define tskCNY70_STACK    (configMINIMAL_STACK_SIZE)
+#define tsk_leds_tricotrol_STACK (configMINIMAL_STACK_SIZE)
 
 
 // Handler para la tarea de display write
@@ -64,6 +66,7 @@ void tarea_buzzer(void *params);
 void tarea_counter_btns(void *params);
 void tarea_setpoint(void *params);
 void tarea_cny70(void *params);
+void tsk_leds_tricolor(void *params);
 
 
 /**

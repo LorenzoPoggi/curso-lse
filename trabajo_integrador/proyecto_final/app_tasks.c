@@ -79,16 +79,20 @@ void tarea_inic(void *params) {
 
 //Tarea que ajusta el setpoint de luminosidad con S1 y S2 (25% a 75%)
 void tarea_setpoint(void *params) {
+    display_variable_t variable;
     while(1) {
-        // S1 incrementa el setpoint
-        if(!wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S1_BTN})) {
-            if(setpoint < 75) setpoint++;
-            vTaskDelay(pdMS_TO_TICKS(200)); // Anti-rebote
-        }
-        // S2 decrementa el setpoint
-        if(!wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S2_BTN})) {
-            if(setpoint > 25) setpoint--;
-            vTaskDelay(pdMS_TO_TICKS(200)); // Anti-rebote
+        xQueuePeek(cola_display_variable, &variable, portMAX_DELAY);
+        if(variable == kDISPLAY_SETPOINT) {
+            // S1 incrementa el setpoint
+            if(!wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S1_BTN})) {
+                if(setpoint < 75) setpoint++;
+                vTaskDelay(pdMS_TO_TICKS(200)); // Anti-rebote
+            }
+            // S2 decrementa el setpoint
+            if(!wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S2_BTN})) {
+                if(setpoint > 25) setpoint--;
+                vTaskDelay(pdMS_TO_TICKS(200)); // Anti-rebote
+            }
         }
         vTaskDelay(pdMS_TO_TICKS(50));
     }
@@ -116,8 +120,9 @@ void tarea_display_change(void *params) {
     while(1) {
         xQueueOverwrite(cola_display_variable, &variable);
         xSemaphoreTake(semaforo_usr, portMAX_DELAY);
-        variable = (variable == kDISPLAY_LUZ) ? kDISPLAY_SETPOINT : kDISPLAY_LUZ;
-    }
+		variable = (variable == kDISPLAY_LUZ) ? kDISPLAY_SETPOINT : kDISPLAY_LUZ;
+		xQueueOverwrite(cola_display_variable, &variable);  // debe ser después del cambio
+	}
 }
 
 /**
@@ -238,34 +243,40 @@ void tarea_buzzer(void *params) {
 }
 
 
-
 /**
  * @brief Tarea que manualmente controla el contador
  */
 void tarea_counter_btns(void *params) {
+    display_variable_t variable;
+    while(1) {
+        // Intenta tomar el semáforo
+        xSemaphoreTake(semaforo_touch, portMAX_DELAY);
 
-	while(1) {
-		// Intenta tomar el semáforo
-		xSemaphoreTake(semaforo_touch, portMAX_DELAY);
-		// Toma el mutex para bloquear la otra tarea que escribe el display
-		xSemaphoreTake(semaforo_mutex, portMAX_DELAY);
-		// Verifica qué pulsador se presionó
-		if(wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S1_BTN})) {
-			// Decrementa la cuenta del semáforo
-			xSemaphoreTake(semaforo_cont, 0);
-		}
-		else if(wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S2_BTN})) {
-			// Incrementa la cuenta del semáforo
-			xSemaphoreGive(semaforo_cont);
-		}
-		// Escribe en el display
-		uint16_t data = uxSemaphoreGetCount(semaforo_cont);
-		xQueueOverwrite(cola_display, &data);
-		// Demora chica para evitar que detecte muy rápido que se presionó
-		vTaskDelay(pdMS_TO_TICKS(30));
-		// Devuelve el mutex
-		xSemaphoreGive(semaforo_mutex);
-	}
+        // Lee el modo actual
+        xQueuePeek(cola_display_variable, &variable, portMAX_DELAY);
+
+        // Solo actúa si NO está en modo setpoint
+        if(variable != kDISPLAY_SETPOINT) {
+            // Toma el mutex para bloquear la otra tarea que escribe el display
+            xSemaphoreTake(semaforo_mutex, portMAX_DELAY);
+            // Verifica qué pulsador se presionó
+            if(wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S1_BTN})) {
+                // Decrementa la cuenta del semáforo
+                xSemaphoreTake(semaforo_cont, 0);
+            }
+            else if(wrapper_btn_get_with_debouncing_with_pull_up((gpio_t){S2_BTN})) {
+                // Incrementa la cuenta del semáforo
+                xSemaphoreGive(semaforo_cont);
+            }
+            // Escribe en el display
+            uint16_t data = uxSemaphoreGetCount(semaforo_cont);
+            xQueueOverwrite(cola_display, &data);
+            // Demora chica para evitar que detecte muy rápido que se presionó
+            vTaskDelay(pdMS_TO_TICKS(30));
+            // Devuelve el mutex
+            xSemaphoreGive(semaforo_mutex);
+        }
+    }
 }
 
 void tarea_cny70(void *params) {
@@ -276,4 +287,49 @@ void tarea_cny70(void *params) {
 		wrapper_output_toggle((gpio_t){BUZZER});
 		vTaskDelay(pdMS_TO_TICKS(50));
 	}
+}
+
+void tsk_leds_tricolor(void *params)
+{
+    uint8_t lux_pct = 0;
+    float setpoint_local = 0;
+    int16_t duty_rled = 0;
+    int16_t duty_bled = 0;
+    const float DEADZONE = 1.0f; // Zona muerta para evitar parpadeos por ruido
+
+    while (1)
+    {
+        // Leer luminosidad actual en porcentaje
+        xQueuePeek(cola_luz_percent, &lux_pct, portMAX_DELAY);
+
+        // Leer setpoint actual
+        setpoint_local = setpoint;
+
+        float diff = (float)lux_pct - setpoint_local;
+
+        if (diff > DEADZONE)
+        {
+            duty_rled = (int16_t)(diff);
+            if (duty_rled > 100)
+                duty_rled = 100;
+            duty_bled = 0;
+        }
+        else if (diff < -DEADZONE)
+        {
+            duty_bled = (int16_t)(-diff);
+            if (duty_bled > 100)
+                duty_bled = 100;
+            duty_rled = 0;
+        }
+        else
+        {
+            duty_rled = 0;
+            duty_bled = 0;
+        }
+
+        wrapper_pwm_update_rled(duty_rled);
+        wrapper_pwm_update_bled(duty_bled);
+
+        vTaskDelay(pdMS_TO_TICKS(50));
+    }
 }
