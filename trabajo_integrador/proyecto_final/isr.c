@@ -20,7 +20,7 @@ void cny70_callback(pint_pin_int_t pintr, pint_status_t *pmatch_status) {
  * @param pintr numero de interrupción
  */
 void usr_callback(pint_pin_int_t pintr, pint_status_t *pmatch_status) {
-	// Tarea de prioridad alta?
+	// Tarea de prioridad alta
 	int32_t higher_task = 0;
 	// Doy el semáforo para la tarea
 	xSemaphoreGiveFromISR(semaforo_usr, &higher_task);

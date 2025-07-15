@@ -12,7 +12,7 @@ xQueueHandle cola_luz;
 // Cola para datos del display
 xQueueHandle cola_display;
 // Cola para porcentaje de luminosidad
-xQueueHandle cola_luz_percent; // Agregá esto al inicio del archivo
+xQueueHandle cola_luz_percent; 
 
 
 // Semáforo para interrupción del infrarojo
@@ -31,9 +31,7 @@ xSemaphoreHandle semaforo_cny70;
 // Handler para la tarea de display write
 TaskHandle_t handle_display;
 
-/**
- * @brief Inicializa todos los perifericos y colas
- */
+// Inicializa todos los perifericos y colas
 void tarea_inic(void *params) {
 	// Inicializo semáforos
 	semaforo_buzzer = xSemaphoreCreateBinary();
@@ -50,7 +48,6 @@ void tarea_inic(void *params) {
 	cola_display = xQueueCreate(1, sizeof(uint16_t));
 	cola_luz_percent = xQueueCreate(1, sizeof(uint8_t));
 
-	
 	// Inicializacion de GPIO
 	wrapper_gpio_init(0);
 	wrapper_gpio_init(1);
@@ -80,9 +77,7 @@ void tarea_inic(void *params) {
 	vTaskDelete(NULL);
 }
 
-/**
- * @brief Tarea que ajusta el setpoint de luminosidad con S1 y S2 (25% a 75%)
- */
+//Tarea que ajusta el setpoint de luminosidad con S1 y S2 (25% a 75%)
 void tarea_setpoint(void *params) {
     while(1) {
         // S1 incrementa el setpoint
@@ -180,27 +175,26 @@ void tarea_display(void *params) {
  * @brief Actualiza el duty del PWM
  */
 void tarea_pwm(void *params) {
-	// Variable para guardar los datos del ADC
-	adc_data_t data = {0};
+    adc_data_t data = {0};
 
-	while(1) {
-		// Bloqueo hasta que haya algo que leer
-		xQueuePeek(cola_adc, &data, portMAX_DELAY);
-		// Calculo la diferencia
-		int16_t err = 100 * (data.ref_raw - data.temp_raw) / 4095;
-		// Actualizo el duty
-		if(err > 0) {
-			// Referencia por arriba, quiero calentar -> LED rojo
-			wrapper_pwm_update_bled(0);
-			wrapper_pwm_update_rled(err);
-		}
-		else {
-			// Referencia por debajo, quiero enfriar -> LED azul
-			wrapper_pwm_update_rled(0);
-			wrapper_pwm_update_bled(-err);
-		}
-		vTaskDelay(pdMS_TO_TICKS(20));
-	}
+    while(1) {
+        xQueuePeek(cola_adc, &data, portMAX_DELAY);
+
+        // Calcula el duty en porcentaje
+        uint16_t duty = 100 * data.ref_raw / 4095;
+
+        // Simula PWM con 20ms de periodo
+        for (uint16_t i = 0; i < 100; i++) {
+            if (i < duty) {
+                // Prende el LED azul
+                GPIO_PinWrite(GPIO_DESTRUCT((gpio_t){LED}), 1);
+            } else {
+                // Apaga el LED azul
+                GPIO_PinWrite(GPIO_DESTRUCT((gpio_t){LED}), 0);
+            }
+            vTaskDelay(pdMS_TO_TICKS(0.2)); // 0.2ms x 100 = 20ms
+        }
+    }
 }
 
 /**
@@ -229,26 +223,6 @@ void tarea_bh1750(void *params) {
     }
 }
 
-
-/**
- * @brief Tarea que parpadea el LED de acuerdo a la intensidad lumínica
- */
-void tarea_blinky(void *params) {
-	// Variable para guardar el tiempo en ms de bloqueo
-	uint16_t blocking_time;
-
-	while(1) {
-		// Lee el último valor de luminosidad
-		xQueuePeek(cola_luz, &blocking_time, portMAX_DELAY);
-		// Máximo es aprox 30000 entonces 3000 ms como máximo
-		blocking_time /= 10;
-		// Conmuto salida
-		wrapper_output_toggle((gpio_t){LED});
-		// Bloqueo el tiempo que se indique de la cola
-		vTaskDelay(pdMS_TO_TICKS(blocking_time));
-	}
-}
-
 /**
  * @brief Tarea que hace sonar el buzzer
  */
@@ -263,16 +237,7 @@ void tarea_buzzer(void *params) {
     }
 }
 
-/**
- * @brief Tarea que decrementa el contador
- */
-void tarea_counter(void *params) {
-	while(1) {
-		// Decrementa la cuenta cada un segundo
-		xSemaphoreTake(semaforo_cont, 0);
-		vTaskDelay(pdMS_TO_TICKS(1000));
-	}
-}
+
 
 /**
  * @brief Tarea que manualmente controla el contador
