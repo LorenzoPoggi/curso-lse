@@ -38,7 +38,6 @@ float wrapper_bh1750_read(void);
 void wrapper_touch_init(void);
 bool wrapper_touch_is_touched(void);
 
-// Funciones inline
 
 /**
  * @brief Wrapper para inicializacion de puerto

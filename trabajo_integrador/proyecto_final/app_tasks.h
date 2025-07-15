@@ -66,8 +66,7 @@ void tarea_buzzer(void *params);
 void tarea_counter_btns(void *params);
 void tarea_setpoint(void *params);
 void tarea_cny70(void *params);
-void tsk_leds_tricolor(void *params);
-
+void tarea_leds_tricolor(void *params);
 
 /**
  * @brief Wrapper que verifica el estado de un pulsador con pull-up

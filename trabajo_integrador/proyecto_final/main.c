@@ -23,6 +23,6 @@ int main(void) {
 	xTaskCreate(tarea_counter_btns, "Counter Btns", tskCOUNTER_BTNS_STACK, NULL,tskCOUNTER_BTNS_PRIORITY, NULL);
 	xTaskCreate(tarea_setpoint, "Setpoint", tskSETPOINT_STACK, NULL, tskSETPOINT_PRIORITY, NULL);
 	xTaskCreate(tarea_cny70, "CNY70", tskCNY70_STACK, NULL, tskCNY70_PRIORITY, NULL);
-	xTaskCreate(tsk_leds_tricolor, "LEDs", tsk_leds_tricotrol_STACK, NULL, tsk_leds_tricolor_PRIORITY, NULL);
+	xTaskCreate(tarea_leds_tricolor, "LEDs", tsk_leds_tricotrol_STACK, NULL, tsk_leds_tricolor_PRIORITY, NULL);
 	vTaskStartScheduler();
 }

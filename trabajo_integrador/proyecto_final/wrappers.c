@@ -3,6 +3,18 @@
 // Variable privada para registrar el evento del PWM
 static uint32_t pwm_bled_event = 0, pwm_rled_event = 0;
 
+void pint_global_callback(pint_pin_int_t pintr, pint_status_t *pmatch_status) {
+    switch(pintr) {
+        case 0:
+            cny70_callback(pintr, pmatch_status);
+            break;
+        case 1:
+            usr_callback(pintr, pmatch_status);
+            break;
+        default:
+            break;
+    }
+}
 // Inicialización del ADC
 void wrapper_adc_init(void) {
 	// Activo clock de matriz de conmutacion
@@ -64,7 +76,7 @@ void wrapper_gpio_enable_irq(gpio_t gpio, pint_pin_enable_t edge, pint_cb_t call
 
     if (pint_n == 0) {
         PINT_Init(PINT);
-        PINT_SetCallback(PINT, callback);
+    	PINT_SetCallback(PINT, pint_global_callback); // Usá el callback global
     }
 
     SYSCON->PINTSEL[pint_n] = wrapper_gpio_get_pin(gpio);

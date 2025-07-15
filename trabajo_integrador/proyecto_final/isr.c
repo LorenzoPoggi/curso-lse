@@ -73,3 +73,5 @@ void CMP_CAPT_IRQHandler(void) {
 	// Veo si hace falta un cambio de contexto
 	portYIELD_FROM_ISR(higher_task);
 }
+
+extern void pint_global_callback(pint_pin_int_t pintr, pint_status_t *pmatch_status);
